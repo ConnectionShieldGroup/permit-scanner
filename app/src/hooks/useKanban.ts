@@ -7,18 +7,18 @@ import type {
   KanbanColumn,
 } from '../lib/types';
 
-// Mock storage local — persiste em localStorage pra estado nao sumir on reload
+// Mock storage local — só pra dev sem Supabase. Pipeline começa VAZIO sempre.
 const LS_KEY = 'permit-scanner.kanban.cards.v1';
 
 function loadMockCards(): KanbanCard[] {
   if (typeof window === 'undefined') return [];
   try {
     const raw = window.localStorage.getItem(LS_KEY);
-    if (!raw) return seedMockCards();
+    if (!raw) return [];
     const parsed = JSON.parse(raw) as KanbanCard[];
     return parsed.map(hydratePermit);
   } catch {
-    return seedMockCards();
+    return [];
   }
 }
 
@@ -26,50 +26,6 @@ function hydratePermit(c: KanbanCard): KanbanCard {
   if (c.permit) return c;
   const permit = MOCK_PERMITS.find((p) => p.id === c.permit_id);
   return permit ? { ...c, permit } : c;
-}
-
-function seedMockCards(): KanbanCard[] {
-  // Pre-popula 4 cards no pipeline para nao iniciar vazio
-  const seed: KanbanCard[] = [
-    {
-      id: 'card-001',
-      permit_id: 'mock-002',
-      board: 'pipeline',
-      column_status: 'visitado',
-      notes: 'Visitei na quarta. Owner estava receptivo.',
-      moved_at: new Date().toISOString(),
-      created_at: new Date().toISOString(),
-    },
-    {
-      id: 'card-002',
-      permit_id: 'mock-005',
-      board: 'pipeline',
-      column_status: 'apresentacao',
-      notes: 'Enviei deck institucional sexta.',
-      moved_at: new Date().toISOString(),
-      created_at: new Date().toISOString(),
-    },
-    {
-      id: 'card-003',
-      permit_id: 'mock-007',
-      board: 'pipeline',
-      column_status: 'proposta',
-      notes: 'Proposta de $18,500 — aguardando assinatura.',
-      moved_at: new Date().toISOString(),
-      created_at: new Date().toISOString(),
-    },
-    {
-      id: 'card-004',
-      permit_id: 'mock-009',
-      board: 'ativos',
-      column_status: 'ativos',
-      notes: 'Fechou — instalação agendada pra próxima semana.',
-      moved_at: new Date().toISOString(),
-      created_at: new Date().toISOString(),
-    },
-  ];
-  saveMockCards(seed);
-  return seed.map(hydratePermit);
 }
 
 function saveMockCards(cards: KanbanCard[]) {
@@ -97,14 +53,16 @@ export function useKanban(board?: KanbanBoard) {
   const fetchData = useCallback(async () => {
     setLoading(true);
     if (useMock || !supabase) {
-      await new Promise((r) => setTimeout(r, 200));
       const all = loadMockCards();
       setCards(board ? all.filter((c) => c.board === board) : all);
       setLoading(false);
       return;
     }
     try {
-      let q = supabase.from('kanban_cards').select('*, permit:permits(*)');
+      let q = supabase
+        .from('kanban_cards')
+        .select('*, permit:permits(*)')
+        .order('moved_at', { ascending: false });
       if (board) q = q.eq('board', board);
       const { data } = await q;
       setCards((data as KanbanCard[]) ?? []);
@@ -116,6 +74,25 @@ export function useKanban(board?: KanbanBoard) {
   useEffect(() => {
     fetchData();
   }, [fetchData]);
+
+  // Supabase Realtime — quando Reginaldo move card, Michel vê instantâneo
+  useEffect(() => {
+    if (useMock || !supabase) return;
+    const sb = supabase;
+    const channel = sb
+      .channel('kanban-shared-' + (board ?? 'all'))
+      .on(
+        'postgres_changes',
+        { event: '*', schema: 'public', table: 'kanban_cards' },
+        () => {
+          fetchData();
+        },
+      )
+      .subscribe();
+    return () => {
+      sb.removeChannel(channel);
+    };
+  }, [useMock, board, fetchData]);
 
   const moveCard = useCallback(
     async (cardId: string, newColumn: KanbanColumn) => {
@@ -138,6 +115,14 @@ export function useKanban(board?: KanbanBoard) {
         return;
       }
 
+      // Optimistic update local pra não esperar round-trip
+      setCards((prev) =>
+        prev.map((c) =>
+          c.id === cardId
+            ? { ...c, column_status: newColumn, board: newBoard, moved_at: new Date().toISOString() }
+            : c,
+        ),
+      );
       await supabase
         .from('kanban_cards')
         .update({
@@ -146,24 +131,23 @@ export function useKanban(board?: KanbanBoard) {
           moved_at: new Date().toISOString(),
         })
         .eq('id', cardId);
-      fetchData();
+      // Realtime vai disparar fetchData pra re-sincronizar
     },
-    [useMock, board, fetchData],
+    [useMock, board],
   );
 
   const addToPipeline = useCallback(
     async (permitId: string) => {
-      const newCard: KanbanCard = {
-        id: `card-${Date.now()}`,
-        permit_id: permitId,
-        board: 'pipeline',
-        column_status: 'encontrado',
-        notes: null,
-        moved_at: new Date().toISOString(),
-        created_at: new Date().toISOString(),
-      };
-
       if (useMock || !supabase) {
+        const newCard: KanbanCard = {
+          id: `card-${Date.now()}`,
+          permit_id: permitId,
+          board: 'pipeline',
+          column_status: 'encontrado',
+          notes: null,
+          moved_at: new Date().toISOString(),
+          created_at: new Date().toISOString(),
+        };
         const all = loadMockCards();
         // evita duplicata
         if (all.some((c) => c.permit_id === permitId)) return;
@@ -173,14 +157,37 @@ export function useKanban(board?: KanbanBoard) {
         return;
       }
 
+      // Pega o id real do permit no banco a partir do permit_number do mock
+      const mockPermit = MOCK_PERMITS.find((p) => p.id === permitId);
+      if (!mockPermit) return;
+
+      const { data: dbPermit } = await supabase
+        .from('permits')
+        .select('id')
+        .eq('permit_number', mockPermit.permit_number)
+        .maybeSingle();
+
+      if (!dbPermit) {
+        console.warn('[kanban] permit não achado no banco:', mockPermit.permit_number);
+        return;
+      }
+
+      // Verifica se já tá no pipeline (evita duplicata)
+      const { data: existing } = await supabase
+        .from('kanban_cards')
+        .select('id')
+        .eq('permit_id', dbPermit.id)
+        .maybeSingle();
+      if (existing) return;
+
       await supabase.from('kanban_cards').insert({
-        permit_id: permitId,
+        permit_id: dbPermit.id,
         board: 'pipeline',
         column_status: 'encontrado',
       });
-      fetchData();
+      // Realtime dispara fetchData
     },
-    [useMock, board, fetchData],
+    [useMock, board],
   );
 
   const updateNotes = useCallback(
@@ -193,15 +200,15 @@ export function useKanban(board?: KanbanBoard) {
         return;
       }
       await supabase.from('kanban_cards').update({ notes }).eq('id', cardId);
-      fetchData();
+      // Realtime dispara fetchData
     },
-    [useMock, board, fetchData],
+    [useMock, board],
   );
 
   return { cards, loading, moveCard, addToPipeline, updateNotes, refetch: fetchData };
 }
 
-// Export pro PermitsPage saber se permit ja esta no pipeline
+// Export pro PermitsPage saber se permit ja esta no pipeline (modo mock só)
 export function getPermitIdsInPipeline(): Set<string> {
   const all = loadMockCards();
   return new Set(all.map((c) => c.permit_id));
