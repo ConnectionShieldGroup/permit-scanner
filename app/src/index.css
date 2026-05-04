@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    background-color: #0a0a0f;
+    color: #ffffff;
+    font-family: 'Inter', system-ui, sans-serif;
+    background-image:
+      radial-gradient(ellipse 60% 30% at 50% 0%, rgba(245, 166, 35, 0.08) 0%, transparent 70%),
+      linear-gradient(rgba(245, 166, 35, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(245, 166, 35, 0.025) 1px, transparent 1px);
+    background-size: auto, 80px 80px, 80px 80px;
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background: rgba(245, 166, 35, 0.3);
+    color: #ffffff;
+  }
+
+  /* Scrollbar dark */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0f;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #252535;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #353548;
+  }
+}
+
+@layer components {
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #ffca50, #e8961e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold text-black transition-all;
+    background: linear-gradient(135deg, #f5a623, #e8961e);
+  }
+  .btn-primary:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 24px rgba(245, 166, 35, 0.35);
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-[#252535] bg-[#151520] px-4 py-2.5 text-sm font-semibold text-white transition-all;
+  }
+  .btn-ghost:hover {
+    border-color: #f5a623;
+    color: #ffca50;
+  }
+
+  .card-base {
+    background: #151520;
+    border: 1px solid #252535;
+    border-radius: 16px;
+    transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .card-base:hover {
+    border-color: #f5a623;
+    transform: translateY(-3px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(245, 166, 35, 0.1);
+  }
+
+  .input-base {
+    @apply w-full rounded-xl border border-[#252535] bg-[#151520] px-4 py-2.5 text-sm text-white placeholder:text-[#65657A] outline-none transition-all;
+  }
+  .input-base:focus {
+    border-color: #f5a623;
+    box-shadow: 0 0 0 3px rgba(245, 166, 35, 0.1);
+  }
+
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-[#252535] bg-[#151520] px-3 py-1 text-xs font-medium text-text-secondary transition-all cursor-pointer;
+  }
+  .pill-active {
+    background: rgba(245, 166, 35, 0.1);
+    border-color: #f5a623;
+    color: #ffca50;
+  }
+
+  .mono {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+  }
+}

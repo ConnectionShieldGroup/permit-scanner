@@ -1,0 +1,17 @@
+# creds
+.creds/
+*.env
+
+# node
+node_modules/
+dist/
+build/
+
+# misc
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# supabase
+supabase/.temp/
