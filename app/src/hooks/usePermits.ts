@@ -37,7 +37,11 @@ export function usePermits(filters?: PermitFilters) {
     }
 
     try {
-      let q = supabase.from('permits').select('*').order('permit_date', { ascending: false });
+      let q = supabase
+        .from('permits')
+        .select('*')
+        .order('permit_date', { ascending: false })
+        .limit(5000); // Supabase default é 1000 — bump pra cobrir total atual + margem
 
       if (filters?.city) q = q.eq('city', filters.city);
       if (filters?.work_type) q = q.eq('work_type', filters.work_type);
