@@ -140,6 +140,7 @@ export const CITIES = [
   'East Bridgewater',
   'Brockton',
   'Randolph',
+  'Cohasset',
 ] as const;
 
 // V1 ativa: 8 cidades MA com fontes extraíveis
@@ -148,5 +149,5 @@ export const CITIES = [
 // V2: pipeline LLM + login Reginaldo cobre demais 22 cidades (OpenGov, Tyler, etc)
 export const ACTIVE_CITIES: readonly string[] = [
   'Somerville', 'Hingham', 'Braintree', 'North Reading', 'Randolph', 'Hanson',
-  'Reading', 'Lexington', 'Wakefield',
+  'Reading', 'Lexington', 'Wakefield', 'Cohasset',
 ];
