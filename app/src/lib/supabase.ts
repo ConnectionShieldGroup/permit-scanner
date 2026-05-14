@@ -7,7 +7,12 @@ export const SUPABASE_CONFIGURED = Boolean(url && anon);
 
 export const supabase: SupabaseClient | null = SUPABASE_CONFIGURED
   ? createClient(url as string, anon as string, {
-      auth: { persistSession: false },
+      auth: {
+        persistSession: true,
+        autoRefreshToken: true,
+        detectSessionInUrl: true,
+        storage: typeof window !== 'undefined' ? window.localStorage : undefined,
+      },
     })
   : null;
 
