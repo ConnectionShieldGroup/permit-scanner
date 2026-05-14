@@ -8,7 +8,7 @@ import { useKanban } from '../hooks/useKanban';
 import { NAO_EFETIVADOS_COLUMNS } from '../lib/types';
 
 export default function KanbanNaoEfetivadosPage() {
-  const { cards, loading, moveCard, updateNotes } = useKanban('nao_efetivados');
+  const { cards, loading, moveCard, updateNotes, removeCard } = useKanban('nao_efetivados');
 
   const stats = useMemo(() => {
     const reabordar = cards.filter((c) => c.column_status === 'reabordar');
@@ -91,6 +91,7 @@ export default function KanbanNaoEfetivadosPage() {
           cards={cards}
           onMove={moveCard}
           onUpdateNotes={updateNotes}
+          onRemove={removeCard}
         />
       )}
     </div>

@@ -7,6 +7,7 @@ import {
   Mail,
   MapPin,
   Phone,
+  Trash2,
   User2,
 } from 'lucide-react';
 import {
@@ -50,6 +51,7 @@ interface KanbanCardDialogProps {
   onClose: () => void;
   onSaveNotes: (notes: string) => void;
   onMove?: (cardId: string, newColumn: KanbanColumnType) => void;
+  onRemove?: (cardId: string) => void;
 }
 
 const ALL_COLUMNS_GROUPED: { group: string; items: { key: KanbanColumnType; label: string }[] }[] = [
@@ -63,6 +65,7 @@ export function KanbanCardDialog({
   onClose,
   onSaveNotes,
   onMove,
+  onRemove,
 }: KanbanCardDialogProps) {
   const [notes, setNotes] = useState('');
   const { toast } = useToast();
@@ -198,6 +201,22 @@ export function KanbanCardDialog({
         </div>
 
         <DialogFooter>
+          {onRemove && (
+            <Button
+              variant="ghost"
+              onClick={() => {
+                if (window.confirm('Remover este card do pipeline? O permit volta a ficar disponível pra adicionar novamente.')) {
+                  onRemove(card.id);
+                  toast({ title: 'Card removido', description: 'Permit voltou pra lista principal.' });
+                  onClose();
+                }
+              }}
+              className="text-red-400 hover:text-red-300 hover:bg-red-400/10"
+            >
+              <Trash2 className="h-4 w-4" />
+              Remover
+            </Button>
+          )}
           <Button variant="outline" onClick={openInMaps}>
             <ExternalLink className="h-4 w-4" />
             Open in Maps

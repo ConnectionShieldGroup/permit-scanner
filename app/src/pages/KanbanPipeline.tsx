@@ -12,7 +12,7 @@ const PIPELINE_KEYS = new Set<KanbanColumn>(
 );
 
 export default function KanbanPipelinePage() {
-  const { cards, loading, moveCard, updateNotes } = useKanban('pipeline');
+  const { cards, loading, moveCard, updateNotes, removeCard } = useKanban('pipeline');
   const { toast } = useToast();
 
   // Filter cards: pipeline keys only (in case of stale move)
@@ -102,6 +102,7 @@ export default function KanbanPipelinePage() {
           cards={pipelineCards}
           onMove={handleMove}
           onUpdateNotes={updateNotes}
+          onRemove={removeCard}
         />
       )}
     </div>

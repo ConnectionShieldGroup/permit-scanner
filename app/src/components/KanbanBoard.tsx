@@ -19,6 +19,7 @@ interface KanbanBoardProps {
   cards: KanbanCard[];
   onMove: (cardId: string, newColumn: KanbanColumnType) => void;
   onUpdateNotes?: (cardId: string, notes: string) => void;
+  onRemove?: (cardId: string) => void;
   board: KanbanBoardType;
 }
 
@@ -27,6 +28,7 @@ export function KanbanBoard({
   cards,
   onMove,
   onUpdateNotes,
+  onRemove,
 }: KanbanBoardProps) {
   const [openCard, setOpenCard] = useState<KanbanCard | null>(null);
 
@@ -67,6 +69,7 @@ export function KanbanBoard({
           }
         }}
         onMove={onMove}
+        onRemove={onRemove}
       />
     </>
   );

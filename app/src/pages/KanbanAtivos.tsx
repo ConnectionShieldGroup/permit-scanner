@@ -7,7 +7,7 @@ import { useToast } from '../components/ui/use-toast';
 import { ATIVOS_COLUMNS, type KanbanColumn } from '../lib/types';
 
 export default function KanbanAtivosPage() {
-  const { cards, loading, moveCard, updateNotes } = useKanban('ativos');
+  const { cards, loading, moveCard, updateNotes, removeCard } = useKanban('ativos');
   const { toast } = useToast();
 
   async function handleMove(cardId: string, newColumn: KanbanColumn) {
@@ -56,6 +56,7 @@ export default function KanbanAtivosPage() {
           cards={cards}
           onMove={handleMove}
           onUpdateNotes={updateNotes}
+          onRemove={removeCard}
         />
       )}
     </div>

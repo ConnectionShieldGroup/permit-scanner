@@ -191,7 +191,22 @@ export function useKanban(board?: KanbanBoard) {
     [useMock, board],
   );
 
-  return { cards, loading, moveCard, addToPipeline, updateNotes, refetch: fetchData };
+  const removeCard = useCallback(
+    async (cardId: string) => {
+      if (useMock || !supabase) {
+        const all = loadMockCards();
+        const updated = all.filter((c) => c.id !== cardId);
+        saveMockCards(updated);
+        setCards(board ? updated.filter((c) => c.board === board) : updated);
+        return;
+      }
+      await supabase.from('kanban_cards').delete().eq('id', cardId);
+      // Realtime dispara fetchData
+    },
+    [useMock, board],
+  );
+
+  return { cards, loading, moveCard, addToPipeline, updateNotes, removeCard, refetch: fetchData };
 }
 
 // Export pro PermitsPage saber se permit ja esta no pipeline (modo mock só)
