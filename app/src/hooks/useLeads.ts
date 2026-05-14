@@ -62,8 +62,10 @@ export function useLeads() {
       .select()
       .single();
     if (error) throw error;
+    // Refetch imediato pra não depender só do realtime
+    await fetchAll();
     return data;
-  }, []);
+  }, [fetchAll]);
 
   const updateLead = useCallback(async (id: string, patch: Partial<Lead>) => {
     if (!supabase) return;
