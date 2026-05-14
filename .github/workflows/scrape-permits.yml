@@ -1,0 +1,65 @@
+name: Scrape Permits (15 day window, 2x/month)
+
+on:
+  schedule:
+    # Dia 15 e dia 28 às 11h UTC (~7h EST / 6h EDT)
+    # Dia 28 escolhido em vez de 30 pra garantir que roda em fevereiro também
+    - cron: '0 11 15 * *'
+    - cron: '0 11 28 * *'
+  workflow_dispatch: # Permite trigger manual via GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Supabase credentials
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          mkdir -p .creds
+          cat > .creds/supabase.env <<EOF
+          SUPABASE_URL=$SUPABASE_URL
+          SUPABASE_SERVICE_ROLE_KEY=$SUPABASE_SERVICE_ROLE_KEY
+          SUPABASE_ANON_KEY=$SUPABASE_ANON_KEY
+          EOF
+
+      - name: Scrape Hingham (15 day window)
+        run: python3 tools/scrape-hingham-local.py --days 15
+        continue-on-error: true
+
+      - name: Scrape Cohasset
+        run: python3 tools/scrape-permiteyes-generic.py cohasset Cohasset --days 15
+        continue-on-error: true
+
+      - name: Scrape Rockland
+        run: python3 tools/scrape-permiteyes-generic.py rockland Rockland --days 15
+        continue-on-error: true
+
+      - name: Scrape Avon
+        run: python3 tools/scrape-permiteyes-generic.py avon Avon --days 15
+        continue-on-error: true
+
+      - name: Scrape Stoughton
+        run: python3 tools/scrape-permiteyes-generic.py stoughton Stoughton --days 15
+        continue-on-error: true
+
+      # TODO: adicionar scrapers das cidades Browserless (Braintree, North Reading, Randolph, Hanson)
+      # TODO: adicionar Reading/Lexington/Wakefield (CivicPlus)
+      # TODO: adicionar Somerville (Socrata)
+
+      - name: Import all permits to Supabase (idempotent upsert)
+        run: python3 tools/import-permits-to-supabase.py
+
+      - name: Cleanup credentials
+        if: always()
+        run: rm -rf .creds
