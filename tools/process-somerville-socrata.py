@@ -130,7 +130,11 @@ def process(records):
 
 
 def main():
-    records = fetch_somerville(days_back=60)
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--days", type=int, default=60)
+    args = parser.parse_args()
+    records = fetch_somerville(days_back=args.days)
     permits = process(records)
     permits.sort(key=lambda p: p["permit_date"] or "1900-01-01", reverse=True)
 

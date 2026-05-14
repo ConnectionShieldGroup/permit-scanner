@@ -31,12 +31,16 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
 PAGE_SIZE = 500
 DETAIL_THROTTLE_S = 0.2
 
-# Config por cidade — cada PermitEyes tem layout diferente. Slugs default fallback p/ Cohasset-like.
+# Config por cidade — cada PermitEyes tem layout diferente.
 CITY_CONFIGS = {
-    "cohasset": {"date": 4, "address": 6, "applicant": 7, "type": 8, "status": 10},
-    "avon":     {"date": 4, "address": 6, "applicant": 7, "type": 8, "status": 10},
-    "rockland": {"address": 1, "description": 3, "date": 7, "applicant": 9, "type": 10, "status": 11},
-    "stoughton":{"date": 8, "address_num": 10, "address_street": 11, "applicant": 12, "type": 13, "status": 15},
+    "cohasset":     {"date": 4, "address": 6, "applicant": 7, "type": 8, "status": 10},
+    "avon":         {"date": 4, "address": 6, "applicant": 7, "type": 8, "status": 10},
+    "rockland":     {"address": 1, "description": 3, "date": 7, "applicant": 9, "type": 10, "status": 11},
+    "stoughton":    {"date": 8, "address_num": 10, "address_street": 11, "applicant": 12, "type": 13, "status": 15},
+    "braintree":    {"date": 6, "applicant": 8, "address": 9, "type": 10, "status": 11},
+    "northreading": {"date": 4, "address": 6, "applicant": 7, "type": 8, "status": 10},
+    "randolph":     {"date": 3, "address": 5, "applicant": 6, "description": 7, "type": 8, "status": 10},
+    "hanson":       {"date": 6, "address": 8, "applicant": 9, "description": 11, "type": 12, "status": 14},
 }
 
 
