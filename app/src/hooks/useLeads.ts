@@ -72,7 +72,9 @@ export function useLeads() {
     // Filtra campos válidos
     const updates: Record<string, unknown> = {};
     const fields = [
-      'name', 'last_name', 'company', 'email', 'phone', 'city', 'status', 'temperature',
+      'name', 'last_name', 'company', 'email', 'phone',
+      'address', 'city', 'state', 'zip_code',
+      'status', 'temperature',
       'estimated_value', 'owner_id', 'owner_company', 'source', 'notes', 'next_followup_date',
     ] as const;
     for (const f of fields) {

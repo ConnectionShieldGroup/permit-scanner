@@ -41,10 +41,13 @@ export function LeadCard({ lead, onClick }: LeadCardProps) {
         </div>
       )}
 
-      {lead.city && (
-        <div className="mt-0.5 flex items-center gap-1.5 text-[11px] text-text-muted truncate">
-          <MapPin className="h-3 w-3 shrink-0" />
-          <span className="truncate">{lead.city}</span>
+      {(lead.address || lead.city) && (
+        <div className="mt-0.5 flex items-start gap-1.5 text-[11px] text-text-muted">
+          <MapPin className="h-3 w-3 shrink-0 mt-0.5" />
+          <span className="line-clamp-2">
+            {[lead.address, lead.city, lead.state].filter(Boolean).join(', ')}
+            {lead.zip_code ? ` ${lead.zip_code}` : ''}
+          </span>
         </div>
       )}
 
