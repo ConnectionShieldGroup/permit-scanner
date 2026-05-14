@@ -20,14 +20,24 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [role, setRole] = useState<UserRole | null>(null);
   const [loading, setLoading] = useState(true);
 
-  async function fetchRole(userId: string) {
+  async function fetchRole(userId: string): Promise<UserRole | null> {
     if (!supabase) return null;
-    const { data } = await supabase
-      .from('user_roles')
-      .select('role')
-      .eq('user_id', userId)
-      .maybeSingle();
-    return (data?.role as UserRole) ?? null;
+    try {
+      // Timeout 5s pra nao travar UI se query falhar
+      const queryPromise = supabase
+        .from('user_roles')
+        .select('role')
+        .eq('user_id', userId)
+        .maybeSingle();
+      const timeoutPromise = new Promise<{ data: null }>((resolve) =>
+        setTimeout(() => resolve({ data: null }), 5000)
+      );
+      const result = (await Promise.race([queryPromise, timeoutPromise])) as { data: { role: UserRole } | null };
+      return (result?.data?.role as UserRole) ?? null;
+    } catch (e) {
+      console.error('[useAuth] fetchRole failed:', e);
+      return null;
+    }
   }
 
   useEffect(() => {
@@ -36,23 +46,38 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       return;
     }
 
-    supabase.auth.getSession().then(async ({ data }) => {
-      setSession(data.session);
-      if (data.session?.user) {
-        setRole(await fetchRole(data.session.user.id));
+    let mounted = true;
+
+    (async () => {
+      try {
+        const { data } = await supabase.auth.getSession();
+        if (!mounted) return;
+        setSession(data.session);
+        if (data.session?.user) {
+          const r = await fetchRole(data.session.user.id);
+          if (mounted) setRole(r);
+        }
+      } catch (e) {
+        console.error('[useAuth] init failed:', e);
+      } finally {
+        if (mounted) setLoading(false);
       }
-      setLoading(false);
-    });
+    })();
 
     const { data: sub } = supabase.auth.onAuthStateChange(async (_event, sess) => {
+      if (!mounted) return;
       setSession(sess);
       if (sess?.user) {
-        setRole(await fetchRole(sess.user.id));
+        const r = await fetchRole(sess.user.id);
+        if (mounted) setRole(r);
       } else {
         setRole(null);
       }
     });
-    return () => sub.subscription.unsubscribe();
+    return () => {
+      mounted = false;
+      sub.subscription.unsubscribe();
+    };
   }, []);
 
   async function signIn(email: string, password: string) {
