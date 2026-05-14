@@ -21,7 +21,18 @@ import { Button } from './ui/button';
 import { Label } from './ui/label';
 import { Badge } from './ui/badge';
 import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from './ui/select';
+import {
   type KanbanCard,
+  type KanbanColumn as KanbanColumnType,
+  PIPELINE_COLUMNS,
+  ATIVOS_COLUMNS,
+  NAO_EFETIVADOS_COLUMNS,
   WORK_TYPE_LABELS,
   WORK_TYPE_COLORS,
 } from '../lib/types';
@@ -38,12 +49,20 @@ interface KanbanCardDialogProps {
   card: KanbanCard | null;
   onClose: () => void;
   onSaveNotes: (notes: string) => void;
+  onMove?: (cardId: string, newColumn: KanbanColumnType) => void;
 }
+
+const ALL_COLUMNS_GROUPED: { group: string; items: { key: KanbanColumnType; label: string }[] }[] = [
+  { group: 'Pipeline', items: PIPELINE_COLUMNS.map((c) => ({ key: c.key, label: c.label })) },
+  { group: 'Ativos', items: ATIVOS_COLUMNS.map((c) => ({ key: c.key, label: c.label })) },
+  { group: 'Não Efetivados', items: NAO_EFETIVADOS_COLUMNS.map((c) => ({ key: c.key, label: c.label })) },
+];
 
 export function KanbanCardDialog({
   card,
   onClose,
   onSaveNotes,
+  onMove,
 }: KanbanCardDialogProps) {
   const [notes, setNotes] = useState('');
   const { toast } = useToast();
@@ -129,6 +148,41 @@ export function KanbanCardDialog({
               )}
             </DetailRow>
           </div>
+
+          {onMove && (
+            <div className="space-y-1.5">
+              <Label>Mover para</Label>
+              <Select
+                value={card.column_status}
+                onValueChange={(val) => {
+                  onMove(card.id, val as KanbanColumnType);
+                  toast({
+                    title: 'Card movido',
+                    description: 'Status atualizado com sucesso.',
+                  });
+                  onClose();
+                }}
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder="Selecione o status..." />
+                </SelectTrigger>
+                <SelectContent>
+                  {ALL_COLUMNS_GROUPED.map((group) => (
+                    <div key={group.group}>
+                      <div className="px-2 py-1 text-[10px] uppercase tracking-wider text-text-muted mono">
+                        {group.group}
+                      </div>
+                      {group.items.map((item) => (
+                        <SelectItem key={item.key} value={item.key}>
+                          {item.label}
+                        </SelectItem>
+                      ))}
+                    </div>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+          )}
 
           <div className="space-y-1.5">
             <Label htmlFor="notes">Notes</Label>

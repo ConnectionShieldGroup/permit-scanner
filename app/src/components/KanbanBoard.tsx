@@ -66,6 +66,7 @@ export function KanbanBoard({
             onUpdateNotes(openCard.id, notes);
           }
         }}
+        onMove={onMove}
       />
     </>
   );
