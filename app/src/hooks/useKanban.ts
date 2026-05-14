@@ -157,31 +157,17 @@ export function useKanban(board?: KanbanBoard) {
         return;
       }
 
-      // Pega o id real do permit no banco a partir do permit_number do mock
-      const mockPermit = MOCK_PERMITS.find((p) => p.id === permitId);
-      if (!mockPermit) return;
-
-      const { data: dbPermit } = await supabase
-        .from('permits')
-        .select('id')
-        .eq('permit_number', mockPermit.permit_number)
-        .maybeSingle();
-
-      if (!dbPermit) {
-        console.warn('[kanban] permit não achado no banco:', mockPermit.permit_number);
-        return;
-      }
-
+      // Em modo real, permitId JÁ é o UUID do banco (vem direto do select permits.*)
       // Verifica se já tá no pipeline (evita duplicata)
       const { data: existing } = await supabase
         .from('kanban_cards')
         .select('id')
-        .eq('permit_id', dbPermit.id)
+        .eq('permit_id', permitId)
         .maybeSingle();
       if (existing) return;
 
       await supabase.from('kanban_cards').insert({
-        permit_id: dbPermit.id,
+        permit_id: permitId,
         board: 'pipeline',
         column_status: 'encontrado',
       });
