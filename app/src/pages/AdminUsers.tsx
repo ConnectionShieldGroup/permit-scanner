@@ -45,7 +45,7 @@ export default function AdminUsersPage() {
     setSubmitting(true);
     try {
       // Chama a edge function pra criar user (precisa service_role no servidor)
-      const { data, error } = await supabase.functions.invoke('admin-create-user', {
+      const { data, error } = await supabase.functions.invoke('dynamic-function', {
         body: { email: email.trim().toLowerCase(), password, role },
       });
       if (error || data?.error) {
@@ -77,7 +77,7 @@ export default function AdminUsersPage() {
     }
     if (!window.confirm(`Remover ${email}? Esta ação não pode ser desfeita.`)) return;
     try {
-      const { data, error } = await supabase.functions.invoke('admin-delete-user', {
+      const { data, error } = await supabase.functions.invoke('hyper-action', {
         body: { user_id: userId },
       });
       if (error || data?.error) {
