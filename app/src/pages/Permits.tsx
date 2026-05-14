@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Database, Search } from 'lucide-react';
 import { FiltersBar } from '../components/FiltersBar';
 import { PermitCard, PermitCardSkeleton } from '../components/PermitCard';
@@ -17,6 +18,7 @@ export default function PermitsPage() {
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [detailPermit, setDetailPermit] = useState<Permit | null>(null);
 
+  const navigate = useNavigate();
   const { permits, loading, isMock } = usePermits(filters);
   const { cards, addToPipeline } = useKanban();
   const { toast } = useToast();
@@ -48,6 +50,7 @@ export default function PermitsPage() {
       title: 'Added to pipeline',
       description: `${p.address} → Permits encontrados`,
     });
+    navigate('/kanban');
   }
 
   function toggleRoute(p: Permit, selected: boolean) {
