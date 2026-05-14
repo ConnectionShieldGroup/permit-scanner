@@ -23,8 +23,10 @@ export default function PermitsPage() {
   const { cards, addToPipeline } = useKanban();
   const { toast } = useToast();
 
+  // Só considera "in pipeline" se o card de fato estiver no board pipeline
+  // (cards em ativos/nao_efetivados liberam o "Add to pipeline" pra trazer de volta)
   const inPipeline = useMemo(
-    () => new Set(cards.map((c) => c.permit_id)),
+    () => new Set(cards.filter((c) => c.board === 'pipeline').map((c) => c.permit_id)),
     [cards],
   );
 

@@ -158,13 +158,26 @@ export function useKanban(board?: KanbanBoard) {
       }
 
       // Em modo real, permitId JÁ é o UUID do banco (vem direto do select permits.*)
-      // Verifica se já tá no pipeline (evita duplicata)
+      // Se já existe card em qualquer board, move de volta pro pipeline em vez de duplicar
       const { data: existing } = await supabase
         .from('kanban_cards')
-        .select('id')
+        .select('id, board')
         .eq('permit_id', permitId)
         .maybeSingle();
-      if (existing) return;
+
+      if (existing) {
+        if (existing.board !== 'pipeline') {
+          await supabase
+            .from('kanban_cards')
+            .update({
+              board: 'pipeline',
+              column_status: 'encontrado',
+              moved_at: new Date().toISOString(),
+            })
+            .eq('id', existing.id);
+        }
+        return;
+      }
 
       await supabase.from('kanban_cards').insert({
         permit_id: permitId,
