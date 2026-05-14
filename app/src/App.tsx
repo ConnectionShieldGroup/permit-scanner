@@ -5,6 +5,7 @@ import PermitsPage from './pages/Permits';
 import KanbanPipelinePage from './pages/KanbanPipeline';
 import KanbanAtivosPage from './pages/KanbanAtivos';
 import KanbanNaoEfetivadosPage from './pages/KanbanNaoEfetivados';
+import CrmPipelinePage from './pages/CrmPipeline';
 import LoginPage from './pages/Login';
 import AdminUsersPage from './pages/AdminUsers';
 import { Toaster } from './components/ui/toaster';
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="kanban" element={<KanbanPipelinePage />} />
           <Route path="kanban/ativos" element={<KanbanAtivosPage />} />
           <Route path="kanban/nao-efetivados" element={<KanbanNaoEfetivadosPage />} />
+          <Route path="crm" element={<CrmPipelinePage />} />
           <Route
             path="admin/users"
             element={

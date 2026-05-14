@@ -106,6 +106,55 @@ export const NAO_EFETIVADOS_COLUMNS: { key: KanbanColumn; label: string; accent:
   { key: 'descartado', label: 'Descartado', accent: '#65657A' },
 ];
 
+// ============= CRM / LEADS =============
+export type LeadStatus = 'novo' | 'contatado' | 'qualificado' | 'proposta' | 'fechado' | 'perdido';
+export type LeadTemperature = 'quente' | 'morno' | 'frio';
+
+export type Lead = {
+  id: string;
+  name: string;
+  company: string | null;
+  email: string | null;
+  phone: string | null;
+  status: LeadStatus;
+  temperature: LeadTemperature | null;
+  estimated_value: number | null;
+  owner_id: string | null;
+  owner_email?: string | null;
+  source: string | null;
+  notes: string | null;
+  next_followup_date: string | null;
+  permit_id: string | null;
+  created_by: string | null;
+  created_by_email?: string | null;
+  created_at: string;
+  updated_at: string;
+};
+
+export type LeadInteraction = {
+  id: string;
+  lead_id: string;
+  type: 'note' | 'call' | 'email' | 'meeting' | 'status_change';
+  content: string;
+  created_by: string | null;
+  created_at: string;
+};
+
+export const LEAD_STATUS_COLUMNS: { key: LeadStatus; label: string; accent: string }[] = [
+  { key: 'novo',        label: 'Novo',        accent: '#9898AA' },
+  { key: 'contatado',   label: 'Contatado',   accent: '#5BC0EB' },
+  { key: 'qualificado', label: 'Qualificado', accent: '#A855F7' },
+  { key: 'proposta',    label: 'Proposta',    accent: '#FFCA50' },
+  { key: 'fechado',     label: 'Fechado',     accent: '#00E68A' },
+  { key: 'perdido',     label: 'Perdido',     accent: '#FF6B6B' },
+];
+
+export const TEMPERATURE_COLORS: Record<LeadTemperature, string> = {
+  quente: '#FF6B6B',
+  morno:  '#FFCA50',
+  frio:   '#5BC0EB',
+};
+
 // 30 cidades — V1 ativa Hingham (PermitEyes AJAX endpoint validado, 84 permits reais).
 // Burlington foi descartada: subagent confundiu Burlington Ontario (Canadá) com Burlington MA.
 // Burlington MA não tem API pública (OpenGov SPA React, V4).

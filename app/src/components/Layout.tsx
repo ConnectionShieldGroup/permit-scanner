@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { Activity, Database, KanbanSquare, LogOut, ScanLine, Users, XCircle } from 'lucide-react';
+import { Activity, Database, KanbanSquare, LogOut, ScanLine, Target, Users, XCircle } from 'lucide-react';
 import { cn } from '../lib/cn';
 import { SUPABASE_CONFIGURED } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
@@ -9,6 +9,7 @@ const NAV = [
   { to: '/kanban', label: 'Pipeline', icon: KanbanSquare, end: false, role: null },
   { to: '/kanban/ativos', label: 'Ativos', icon: Activity, end: true, role: null },
   { to: '/kanban/nao-efetivados', label: 'Não Efetivados', icon: XCircle, end: true, role: null },
+  { to: '/crm', label: 'CRM', icon: Target, end: false, role: null },
   { to: '/admin/users', label: 'Usuários', icon: Users, end: true, role: 'admin' as const },
 ];
 
