@@ -113,18 +113,32 @@ export type LeadTemperature = 'quente' | 'morno' | 'frio';
 export type Lead = {
   id: string;
   name: string;
+  last_name: string | null;
   company: string | null;
   email: string | null;
   phone: string | null;
+  city: string | null;
   status: LeadStatus;
   temperature: LeadTemperature | null;
   estimated_value: number | null;
   owner_id: string | null;
   owner_email?: string | null;
+  owner_company: string | null;
   source: string | null;
   notes: string | null;
   next_followup_date: string | null;
   permit_id: string | null;
+  hubspot_id: string | null;
+  // Email tracking (importados do HubSpot)
+  email_bounce_reason: string | null;
+  marketing_email_bounced: boolean | null;
+  email_quarantined: boolean | null;
+  marketing_email_status: string | null;
+  // Atividade
+  last_activity_date: string | null;
+  last_contact_date: string | null;
+  last_email_open_date: string | null;
+  last_email_click_date: string | null;
   created_by: string | null;
   created_by_email?: string | null;
   created_at: string;

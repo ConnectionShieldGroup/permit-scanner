@@ -72,8 +72,8 @@ export function useLeads() {
     // Filtra campos válidos
     const updates: Record<string, unknown> = {};
     const fields = [
-      'name', 'company', 'email', 'phone', 'status', 'temperature',
-      'estimated_value', 'owner_id', 'source', 'notes', 'next_followup_date',
+      'name', 'last_name', 'company', 'email', 'phone', 'city', 'status', 'temperature',
+      'estimated_value', 'owner_id', 'owner_company', 'source', 'notes', 'next_followup_date',
     ] as const;
     for (const f of fields) {
       if (f in patch) updates[f] = (patch as Record<string, unknown>)[f];

@@ -47,6 +47,9 @@ const INTERACTION_ICONS = {
 export function LeadDialog({ lead, open, onClose, onSave, onDelete }: LeadDialogProps) {
   const { toast } = useToast();
   const [name, setName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [city, setCity] = useState('');
+  const [ownerCompany, setOwnerCompany] = useState('');
   const [company, setCompany] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
@@ -65,6 +68,9 @@ export function LeadDialog({ lead, open, onClose, onSave, onDelete }: LeadDialog
   useEffect(() => {
     if (!open) return;
     setName(lead?.name ?? '');
+    setLastName(lead?.last_name ?? '');
+    setCity(lead?.city ?? '');
+    setOwnerCompany(lead?.owner_company ?? '');
     setCompany(lead?.company ?? '');
     setEmail(lead?.email ?? '');
     setPhone(lead?.phone ?? '');
@@ -87,6 +93,9 @@ export function LeadDialog({ lead, open, onClose, onSave, onDelete }: LeadDialog
     try {
       await onSave({
         name: name.trim(),
+        last_name: lastName.trim() || null,
+        city: city.trim() || null,
+        owner_company: ownerCompany.trim() || null,
         company: company.trim() || null,
         email: email.trim() || null,
         phone: phone.trim() || null,
@@ -132,8 +141,20 @@ export function LeadDialog({ lead, open, onClose, onSave, onDelete }: LeadDialog
             <Input id="lead-name" value={name} onChange={(e) => setName(e.target.value)} required />
           </div>
           <div className="space-y-1.5">
-            <Label htmlFor="lead-company">Empresa</Label>
+            <Label htmlFor="lead-lastname">Sobrenome</Label>
+            <Input id="lead-lastname" value={lastName} onChange={(e) => setLastName(e.target.value)} />
+          </div>
+          <div className="space-y-1.5">
+            <Label htmlFor="lead-company">Empresa do lead</Label>
             <Input id="lead-company" value={company} onChange={(e) => setCompany(e.target.value)} />
+          </div>
+          <div className="space-y-1.5">
+            <Label htmlFor="lead-city">Cidade</Label>
+            <Input id="lead-city" value={city} onChange={(e) => setCity(e.target.value)} />
+          </div>
+          <div className="space-y-1.5 md:col-span-2">
+            <Label htmlFor="lead-owner-company">Empresa proprietária do lead (Shield pro inc / Connection Glass / etc.)</Label>
+            <Input id="lead-owner-company" value={ownerCompany} onChange={(e) => setOwnerCompany(e.target.value)} />
           </div>
           <div className="space-y-1.5">
             <Label htmlFor="lead-email">Email</Label>

@@ -1,4 +1,4 @@
-import { Building2, Calendar, DollarSign, Flame, Mail, Phone, User2 } from 'lucide-react';
+import { Building2, Calendar, DollarSign, Flame, Mail, MapPin, Phone, User2 } from 'lucide-react';
 import { format } from 'date-fns';
 import type { Lead, LeadTemperature } from '../lib/types';
 import { TEMPERATURE_COLORS } from '../lib/types';
@@ -38,6 +38,13 @@ export function LeadCard({ lead, onClick }: LeadCardProps) {
         <div className="mt-1 flex items-center gap-1.5 text-xs text-text-secondary truncate">
           <Building2 className="h-3 w-3 shrink-0" />
           <span className="truncate">{lead.company}</span>
+        </div>
+      )}
+
+      {lead.city && (
+        <div className="mt-0.5 flex items-center gap-1.5 text-[11px] text-text-muted truncate">
+          <MapPin className="h-3 w-3 shrink-0" />
+          <span className="truncate">{lead.city}</span>
         </div>
       )}
 
