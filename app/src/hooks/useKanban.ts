@@ -213,8 +213,9 @@ export function useKanban(board?: KanbanBoard) {
         setCards(board ? updated.filter((c) => c.board === board) : updated);
         return;
       }
+      // Optimistic update local pra UI não esperar realtime
+      setCards((prev) => prev.filter((c) => c.id !== cardId));
       await supabase.from('kanban_cards').delete().eq('id', cardId);
-      // Realtime dispara fetchData
     },
     [useMock, board],
   );
