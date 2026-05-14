@@ -24,10 +24,12 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-INPUT_FILES = [
-    Path("/tmp/lex-mar2026.xlsx"),  # CSV apesar do extension
-    Path("/tmp/lex-apr2026.xlsx"),
-]
+INPUT_FILES = sorted(set(
+    list(Path("/tmp").glob("lexington-*.csv")) +
+    list(Path("/tmp").glob("lexington-*.xlsx")) +
+    list(Path("/tmp").glob("lex-*.csv")) +
+    list(Path("/tmp").glob("lex-*.xlsx"))
+))
 OUTPUT = ROOT / "app" / "src" / "lib" / "lexington-real.json"
 
 

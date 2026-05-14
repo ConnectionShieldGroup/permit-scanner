@@ -73,7 +73,18 @@ jobs:
         run: python3 tools/process-somerville-socrata.py --days 15
         continue-on-error: true
 
-      # Reading/Lexington/Wakefield (CivicPlus PDF/XLSX mensal) — automacao na proxima sessao
+      - name: Install Python deps for CivicPlus parsers
+        run: pip install openpyxl pdfplumber
+
+      - name: Scrape Reading (CivicPlus XLSX)
+        run: python3 tools/scrape-civicplus-auto.py reading
+        continue-on-error: true
+
+      - name: Scrape Wakefield (CivicPlus PDF)
+        run: python3 tools/scrape-civicplus-auto.py wakefield
+        continue-on-error: true
+
+      # Lexington: cidade parou de publicar reports mensais em jun/2021. Pendente Records Request.
 
       - name: Import all permits to Supabase (idempotent upsert)
         run: python3 tools/import-permits-to-supabase.py

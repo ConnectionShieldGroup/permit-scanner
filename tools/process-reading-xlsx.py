@@ -31,11 +31,7 @@ INPUT_FILES = [
     ROOT.parent.parent / "../../tmp/reading-19061-December-2025.xlsx",
 ]
 # Path correção — files estão em /tmp
-INPUT_FILES = [
-    Path("/tmp/reading-19481-February-2026.xlsx"),
-    Path("/tmp/reading-19305-January-2026.xlsx"),
-    Path("/tmp/reading-19061-December-2025.xlsx"),
-]
+INPUT_FILES = sorted(Path("/tmp").glob("reading-*.xlsx"))
 OUTPUT = ROOT / "app" / "src" / "lib" / "reading-real.json"
 
 # Heurística work_type (mesmas palavras-chave do Hingham)

@@ -26,11 +26,12 @@ except ImportError:
     sys.exit(1)
 
 ROOT = Path(__file__).resolve().parent.parent
-INPUT_FILES = [
-    Path("/tmp/wak-2494-January-2026.pdf"),
-    Path("/tmp/wak-2535-February-2026.pdf"),
-    Path("/tmp/wak-2575-March-2026.pdf"),
-]
+# Aceita arquivos com nome wakefield-* (novo padrao do scrape-civicplus-auto.py)
+# OU wak-*-Month-YYYY.pdf (legado). Glob deduplica e processa todos.
+INPUT_FILES = sorted(set(
+    list(Path("/tmp").glob("wakefield-*.pdf")) +
+    list(Path("/tmp").glob("wak-*.pdf"))
+))
 OUTPUT = ROOT / "app" / "src" / "lib" / "wakefield-real.json"
 
 

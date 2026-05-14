@@ -1,6 +1,2625 @@
 [
   {
-    "id": "0d1efca3-228e-469b-bb7b-79bfc0f073a9",
+    "id": "f214328a-4c8c-4d73-9ef0-8f501ac7d8a4",
+    "permit_number": "BP-26-210",
+    "applicant_name": "Tyler Lee Strout",
+    "address": "Susan M Collins",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-30",
+    "application_date": null,
+    "estimated_value": 6000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "3 Wolcott St",
+      "contractor_name": "Tyler Lee Strout",
+      "amount_paid": "$72.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578625+00:00",
+    "updated_at": "2026-05-14T04:24:57.578626+00:00"
+  },
+  {
+    "id": "6a0cb3dc-b90e-4dad-818a-b441fd0e704a",
+    "permit_number": "BP-26-224",
+    "applicant_name": "Christopher Souza",
+    "address": "79 Water Street Llc",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-30",
+    "application_date": null,
+    "estimated_value": 19000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "79 Water St",
+      "contractor_name": "Christopher Souza",
+      "amount_paid": "$228.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578870+00:00",
+    "updated_at": "2026-05-14T04:24:57.578871+00:00"
+  },
+  {
+    "id": "b7c125d5-3d2c-4d5b-a642-16148f500631",
+    "permit_number": "BP-26-234",
+    "applicant_name": "73 Renwick Rd",
+    "address": "Gori Jason - Gori Christine M",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "addition",
+    "permit_date": "2026-04-30",
+    "application_date": null,
+    "estimated_value": 5000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "ADD 16 x 16 ADDITION TO EXISTING DECK",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "73 Renwick Rd",
+      "contractor_name": null,
+      "amount_paid": "$60.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.579071+00:00",
+    "updated_at": "2026-05-14T04:24:57.579072+00:00"
+  },
+  {
+    "id": "ff540c52-6e50-4ed2-97be-e669faa7f08e",
+    "permit_number": "BP-26-207",
+    "applicant_name": "Daniel D Fonzi",
+    "address": "Acorn Spruce Properties Llc",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 19000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "INSTALL 13 SOLAR PANELS",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "60 Jordan Ave, Unit 1 & 2",
+      "contractor_name": "Daniel D Fonzi",
+      "amount_paid": "$228.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578569+00:00",
+    "updated_at": "2026-05-14T04:24:57.578570+00:00"
+  },
+  {
+    "id": "26040857-4143-487f-8bde-3d1e27f73c4e",
+    "permit_number": "BP-26-222",
+    "applicant_name": "Rodrigo D Guimaraes",
+    "address": "Andrew T Philbin - Philbin, Mary E",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 300000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPAIRS FROM FIRE DAMAGE - INSTALL SPRINKLERS",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "318 Water St",
+      "contractor_name": "Rodrigo D Guimaraes",
+      "amount_paid": "$3,600.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578833+00:00",
+    "updated_at": "2026-05-14T04:24:57.578834+00:00"
+  },
+  {
+    "id": "72e91d27-3356-4a68-9196-d1f4b0c34489",
+    "permit_number": "BP-26-223",
+    "applicant_name": "Mark Brady",
+    "address": "Obrien Family Trust, The Mj",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 12000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "10 Kathy Ln",
+      "contractor_name": "Mark Brady",
+      "amount_paid": "$144.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578852+00:00",
+    "updated_at": "2026-05-14T04:24:57.578852+00:00"
+  },
+  {
+    "id": "1549a07f-a899-4a33-83a4-1acbc253933d",
+    "permit_number": "BP-26-226",
+    "applicant_name": "Daniel Oliveira, Jr",
+    "address": "Sawin Realty Llc - %Richard A Sawin",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 10000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP ROOF AND INSTALL RUBBER ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "75 Broadway",
+      "contractor_name": "Daniel Oliveira, Jr",
+      "amount_paid": "$120.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578907+00:00",
+    "updated_at": "2026-05-14T04:24:57.578908+00:00"
+  },
+  {
+    "id": "00502d89-3520-46cd-8874-7e42db60df66",
+    "permit_number": "BP-26-227",
+    "applicant_name": "Thomas B Burke",
+    "address": "Buonfiglio, Robert - Joanne Buonfiglio",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 9000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "13 Kathleen Dr",
+      "contractor_name": "Thomas B Burke",
+      "amount_paid": "$108.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578926+00:00",
+    "updated_at": "2026-05-14T04:24:57.578927+00:00"
+  },
+  {
+    "id": "a499ff86-c3c3-45d2-89a5-456d2547e156",
+    "permit_number": "BP-26-228",
+    "applicant_name": "Thomas B Burke",
+    "address": "Bova Family Trust",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 9000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "10 Old Colony Dr",
+      "contractor_name": "Thomas B Burke",
+      "amount_paid": "$108.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578946+00:00",
+    "updated_at": "2026-05-14T04:24:57.578948+00:00"
+  },
+  {
+    "id": "38fdac3e-c7fe-4248-ae44-7c1f26ca2b18",
+    "permit_number": "BP-26-229",
+    "applicant_name": "Thomas X Sullivan",
+    "address": "Gullifa Properties Llc/Poloni Properties Llc",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "kitchen_renovation",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 30000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REMODEL 2ND FL BATHROOM,1ST FL KITCHEN",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "39 Richardson Ave",
+      "contractor_name": "Thomas X Sullivan",
+      "amount_paid": "$300.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578968+00:00",
+    "updated_at": "2026-05-14T04:24:57.578970+00:00"
+  },
+  {
+    "id": "5beb50b6-0adf-440d-a243-96e899a012ba",
+    "permit_number": "BP-26-230",
+    "applicant_name": "Thomas X Sullivan",
+    "address": "Gullifa Properties Llc/Poloni Properties Llc",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "bath_renovation",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 15000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "INSTALL 1/2 BATH 1ST FLOOR",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "39 Richardson Ave",
+      "contractor_name": "Thomas X Sullivan",
+      "amount_paid": "$180.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578991+00:00",
+    "updated_at": "2026-05-14T04:24:57.578992+00:00"
+  },
+  {
+    "id": "2a121784-4ab3-44e5-bba6-6deb61e5c6e0",
+    "permit_number": "BP-26-231",
+    "applicant_name": "Thomas X Sullivan",
+    "address": "Gullifa Properties Llc/Poloni Properties Llc",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "kitchen_renovation",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 20000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REMODEL 2ND FLOOR BATHROOM, 1ST FLOOR KITCHEN",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "39 Richardson Ave",
+      "contractor_name": "Thomas X Sullivan",
+      "amount_paid": "$240.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.579008+00:00",
+    "updated_at": "2026-05-14T04:24:57.579009+00:00"
+  },
+  {
+    "id": "1dae9c0d-5bfb-415f-bfb3-759b5ef0ba1c",
+    "permit_number": "BP-26-232",
+    "applicant_name": "4 Biggs Ct",
+    "address": "Sean Mcdonough - Mcdonough, Sonia Torretta",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "kitchen_renovation",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 10000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "NON-COMMERCIAL KITCHEN & USE IN BASEMENT",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "4 Biggs Ct",
+      "contractor_name": null,
+      "amount_paid": "$120.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.579023+00:00",
+    "updated_at": "2026-05-14T04:24:57.579036+00:00"
+  },
+  {
+    "id": "4557c798-2a41-48be-bf8d-7d638a00a8ca",
+    "permit_number": "BP-26-233",
+    "applicant_name": "Robert J Mcguire, Jr",
+    "address": "486 Main Street Llc",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-29",
+    "application_date": null,
+    "estimated_value": 25000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "PARTITION OFF 4 OFFICES",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "486 Main St",
+      "contractor_name": "Robert J Mcguire, Jr",
+      "amount_paid": "$300.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.579055+00:00",
+    "updated_at": "2026-05-14T04:24:57.579056+00:00"
+  },
+  {
+    "id": "b743ed63-a208-4813-8623-4c2346af546b",
+    "permit_number": "BP-26-225",
+    "applicant_name": "Jack A Nakashian",
+    "address": "288 Salem St Llc",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-28",
+    "application_date": null,
+    "estimated_value": 10000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "RAZE SINGLE FAMILY HOME",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "288 Salem St",
+      "contractor_name": "Jack A Nakashian",
+      "amount_paid": "$120.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578887+00:00",
+    "updated_at": "2026-05-14T04:24:57.578888+00:00"
+  },
+  {
+    "id": "d9766f42-a48b-4387-b7b3-d58d2dd89d7e",
+    "permit_number": "BP-26-220",
+    "applicant_name": "Thomas A. Burr",
+    "address": "Wakefield Savings, Bank - %The Savings Bank",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-27",
+    "application_date": null,
+    "estimated_value": 3000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "INSTALL DOOR WITH STEEL FRAME",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "357 Main St",
+      "contractor_name": "Thomas A. Burr",
+      "amount_paid": "$100.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578797+00:00",
+    "updated_at": "2026-05-14T04:24:57.578798+00:00"
+  },
+  {
+    "id": "39a7caad-6c5b-4b1d-8fea-5762b0d4a185",
+    "permit_number": "BP-26-221",
+    "applicant_name": "Drew J Anderson",
+    "address": "Mk Rentals Llc",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-27",
+    "application_date": null,
+    "estimated_value": 11000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE 10X10 DECK",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "19 Lake St",
+      "contractor_name": "Drew J Anderson",
+      "amount_paid": "$132.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578814+00:00",
+    "updated_at": "2026-05-14T04:24:57.578815+00:00"
+  },
+  {
+    "id": "1142e5a1-4cc5-43db-92a2-5f77d47cd963",
+    "permit_number": "BP-26-160",
+    "applicant_name": "Thomas B Burke",
+    "address": "Finlay L Est, Charles J - Charles J Finlay Jr",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-24",
+    "application_date": null,
+    "estimated_value": 7000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "103 Gould St",
+      "contractor_name": "Thomas B Burke",
+      "amount_paid": "$84.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577706+00:00",
+    "updated_at": "2026-05-14T04:24:57.577707+00:00"
+  },
+  {
+    "id": "bd843c08-81c0-4512-800b-12ca6ffed2b7",
+    "permit_number": "BP-26-212",
+    "applicant_name": "Mark C Aronis",
+    "address": "Richard Arthur Curran Tr",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-24",
+    "application_date": null,
+    "estimated_value": null,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACING EXPIRED PERMIT #BP-20-655 - VINYL SIDE",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "14 Harding Rd",
+      "contractor_name": "Mark C Aronis",
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578674+00:00",
+    "updated_at": "2026-05-14T04:24:57.578675+00:00"
+  },
+  {
+    "id": "7c130fa8-4c66-466d-b260-7c9737357b2b",
+    "permit_number": "BP-26-213",
+    "applicant_name": "9 Davidson Rd",
+    "address": "Carolyn B Duffy - Duffy, Conor P",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-24",
+    "application_date": null,
+    "estimated_value": 28000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REBUILD FRONT, REAR STAIRS AND REPLACE PATIO",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "9 Davidson Rd",
+      "contractor_name": null,
+      "amount_paid": "$336.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578692+00:00",
+    "updated_at": "2026-05-14T04:24:57.578693+00:00"
+  },
+  {
+    "id": "193f1a00-e3f7-4124-adc8-0210b42b38a2",
+    "permit_number": "BP-26-214",
+    "applicant_name": "69 Pleasant St",
+    "address": "The 69 Pleasant St Realty Trst",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-24",
+    "application_date": null,
+    "estimated_value": 7000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "INSTALL SHED",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "69 Pleasant St",
+      "contractor_name": null,
+      "amount_paid": "$96.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578709+00:00",
+    "updated_at": "2026-05-14T04:24:57.578710+00:00"
+  },
+  {
+    "id": "5931cfeb-955c-49fe-82c8-e5ba5220bca6",
+    "permit_number": "BP-26-215",
+    "applicant_name": "30 Meriam St",
+    "address": "Lonano Property Holdings Llc",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-24",
+    "application_date": null,
+    "estimated_value": 4000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "WRAP COLUMNS AND REPLACE DECKING",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "30 Meriam St",
+      "contractor_name": null,
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578725+00:00",
+    "updated_at": "2026-05-14T04:24:57.578726+00:00"
+  },
+  {
+    "id": "5cb39c4e-a966-40b6-9509-926212eee37d",
+    "permit_number": "BP-26-216",
+    "applicant_name": "Michael A Christopher",
+    "address": "Gavin Macbeath - Macbeath, Michele",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-24",
+    "application_date": null,
+    "estimated_value": 36000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "BUILD NEW DECK",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "9 Sophia`S Way",
+      "contractor_name": "Michael A Christopher",
+      "amount_paid": "$432.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578744+00:00",
+    "updated_at": "2026-05-14T04:24:57.578745+00:00"
+  },
+  {
+    "id": "1248fab3-2747-4a37-9d0f-c5e4e58edf8e",
+    "permit_number": "BP-26-217",
+    "applicant_name": "Christopher L Fitzsimmons",
+    "address": "Vanessa Rea-Marcel - Rea-Marcel, Christopher M",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-24",
+    "application_date": null,
+    "estimated_value": 10000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "INSTALL INTELLIJACK SUPPORT SYSTEM,",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "10 Greenwood St",
+      "contractor_name": "Christopher L Fitzsimmons",
+      "amount_paid": "$120.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578764+00:00",
+    "updated_at": "2026-05-14T04:24:57.578765+00:00"
+  },
+  {
+    "id": "ee0d15ce-9d83-4a29-822c-39aeeefc8397",
+    "permit_number": "BP-26-218",
+    "applicant_name": "72 Paon Blvd",
+    "address": "Brandon Needleman - Campbell, Jennifer",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "addition",
+    "permit_date": "2026-04-24",
+    "application_date": null,
+    "estimated_value": 150000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "ADDITION",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "72 Paon Blvd",
+      "contractor_name": null,
+      "amount_paid": "$1,800.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578779+00:00",
+    "updated_at": "2026-05-14T04:24:57.578780+00:00"
+  },
+  {
+    "id": "9b69a7b3-c86c-41dc-a893-ce23ab26b6b8",
+    "permit_number": "BP-26-211",
+    "applicant_name": "Jonathan V Collins",
+    "address": "Dejoie Charles V - Dejoie Karen M",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "addition",
+    "permit_date": "2026-04-23",
+    "application_date": null,
+    "estimated_value": 267000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "CONSTRUCT ADDITION PER PLANS",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "22 Harrison Ave",
+      "contractor_name": "Jonathan V Collins",
+      "amount_paid": "$3,206.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578650+00:00",
+    "updated_at": "2026-05-14T04:24:57.578651+00:00"
+  },
+  {
+    "id": "5cae1461-63c7-43d1-bb37-7e889021c5a6",
+    "permit_number": "BP-26-202",
+    "applicant_name": "Mark Brady",
+    "address": "Timothy Buckley - Buckley, Elaine",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-22",
+    "application_date": null,
+    "estimated_value": 17000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF, REPOINT CHIMNEY",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "54 Converse St",
+      "contractor_name": "Mark Brady",
+      "amount_paid": "$204.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578475+00:00",
+    "updated_at": "2026-05-14T04:24:57.578476+00:00"
+  },
+  {
+    "id": "4a2c270c-fc1c-4839-bbf1-771c21660c6f",
+    "permit_number": "BP-26-205",
+    "applicant_name": "Peter A Leblanc",
+    "address": "Jacquelyn Sullivan - Sullivan, Brendan F.",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-22",
+    "application_date": null,
+    "estimated_value": 5000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "AIR SEALING/INSULATION",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "5 Willard Rd",
+      "contractor_name": "Peter A Leblanc",
+      "amount_paid": "$60.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578532+00:00",
+    "updated_at": "2026-05-14T04:24:57.578533+00:00"
+  },
+  {
+    "id": "060895c3-1ad8-4f5d-985d-9483561bb6b4",
+    "permit_number": "BP-26-206",
+    "applicant_name": "Geoffrey Shafer",
+    "address": "David C Olivieri - Olivieri, Jennifer M",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "addition",
+    "permit_date": "2026-04-22",
+    "application_date": null,
+    "estimated_value": 448000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "2 STORY ADDITION, BASEMENT RENO ADD HP RAMP",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "5 Goodwin St",
+      "contractor_name": "Geoffrey Shafer",
+      "amount_paid": "$5,376.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578550+00:00",
+    "updated_at": "2026-05-14T04:24:57.578551+00:00"
+  },
+  {
+    "id": "52943da2-212f-4c2e-9171-8270a68a49b7",
+    "permit_number": "BP-26-208",
+    "applicant_name": "Mark C Aronis",
+    "address": "Richard Arthur Curran Tr",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-22",
+    "application_date": null,
+    "estimated_value": null,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACING EXPIRED PERMIT # BP-20-810",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "14 Harding Rd",
+      "contractor_name": "Mark C Aronis",
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578587+00:00",
+    "updated_at": "2026-05-14T04:24:57.578588+00:00"
+  },
+  {
+    "id": "a3f19f72-fc65-4844-9ebe-bb15d71f9f96",
+    "permit_number": "BP-26-209",
+    "applicant_name": "Brett A Mayo",
+    "address": "Nathan J Goldstein - Goldstein, Christine M",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-22",
+    "application_date": null,
+    "estimated_value": 15000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "DEMO EXISTING PORCH AND REPLACE WITH NEW",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "1 Pine Ridge Rd",
+      "contractor_name": "Brett A Mayo",
+      "amount_paid": "$180.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578606+00:00",
+    "updated_at": "2026-05-14T04:24:57.578607+00:00"
+  },
+  {
+    "id": "b0db72bd-a488-482a-99b6-f83c4ae7617a",
+    "permit_number": "BP-26-201",
+    "applicant_name": "Daniel A Burke",
+    "address": "Cooper, Charles G Life Est - Cooper Family Trust",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-21",
+    "application_date": null,
+    "estimated_value": 11000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF MAIN HOUSE ONLY",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "7 Heritage Ln",
+      "contractor_name": "Daniel A Burke",
+      "amount_paid": "$132.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578456+00:00",
+    "updated_at": "2026-05-14T04:24:57.578457+00:00"
+  },
+  {
+    "id": "aa86be07-9450-44d8-afbc-7ff20e24d40a",
+    "permit_number": "BP-26-203",
+    "applicant_name": "Robert Leblanc",
+    "address": "Stephanie Bjork",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-21",
+    "application_date": null,
+    "estimated_value": 51000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE 17 WINDOWS, NON STRUCTURAL",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "28 Towne Crest Dr",
+      "contractor_name": "Robert Leblanc",
+      "amount_paid": "$612.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578494+00:00",
+    "updated_at": "2026-05-14T04:24:57.578495+00:00"
+  },
+  {
+    "id": "f8c1eb4d-3c17-4662-bfbc-2b897ee28722",
+    "permit_number": "BP-26-204",
+    "applicant_name": "134 Montrose Ave",
+    "address": "Romuald Musialowski",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-21",
+    "application_date": null,
+    "estimated_value": 3000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "BUILD 12' X 16' SHED IN REAR OF PROPERTY",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "134 Montrose Ave",
+      "contractor_name": null,
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578511+00:00",
+    "updated_at": "2026-05-14T04:24:57.578512+00:00"
+  },
+  {
+    "id": "df41a337-0991-416b-a022-a706d6463682",
+    "permit_number": "BP-24-86",
+    "applicant_name": "Daniel L Kupferschmid",
+    "address": "Ccf Quannapowitt Property Company",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-17",
+    "application_date": null,
+    "estimated_value": null,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "CONSTRUCT AN 86 UNIT 3-STORY RESIDENTIAL DWELLING",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "300 Quannapowitt Pkwy,#2",
+      "contractor_name": "Daniel L Kupferschmid",
+      "amount_paid": "$3,518.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577202+00:00",
+    "updated_at": "2026-05-14T04:24:57.577213+00:00"
+  },
+  {
+    "id": "67fef6b6-7dfc-40c5-a5e5-845e8efd8133",
+    "permit_number": "BP-26-196",
+    "applicant_name": "Daniel Oliveira, Jr",
+    "address": "Jt Harold",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-17",
+    "application_date": null,
+    "estimated_value": 17000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "29 Gregory Rd",
+      "contractor_name": "Daniel Oliveira, Jr",
+      "amount_paid": "$204.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578370+00:00",
+    "updated_at": "2026-05-14T04:24:57.578371+00:00"
+  },
+  {
+    "id": "380dff52-0244-4d19-8db1-c3cd88eaf601",
+    "permit_number": "BP-26-193",
+    "applicant_name": "95 Elm St",
+    "address": "Ashish Amatya - Amatya, Jyotshana",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-16",
+    "application_date": null,
+    "estimated_value": 14000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "95 Elm St",
+      "contractor_name": null,
+      "amount_paid": "$168.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578311+00:00",
+    "updated_at": "2026-05-14T04:24:57.578312+00:00"
+  },
+  {
+    "id": "cad9dde9-ec6b-40cf-ba0b-970cea5d3637",
+    "permit_number": "BP-26-194",
+    "applicant_name": "Jack I Golini",
+    "address": "W. D Boylan Lest - Boylan Trust, L. L - Boylan Tr, L. L",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-16",
+    "application_date": null,
+    "estimated_value": 28000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "7 Lawrence St",
+      "contractor_name": "Jack I Golini",
+      "amount_paid": "$336.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578331+00:00",
+    "updated_at": "2026-05-14T04:24:57.578332+00:00"
+  },
+  {
+    "id": "7fa90fa3-bbc0-4963-8f38-71cb865c8a24",
+    "permit_number": "BP-26-195",
+    "applicant_name": "Manuel D Vasconcelos",
+    "address": "First Meth Church, Of Wakefiel - C/O George P Fuller",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-16",
+    "application_date": null,
+    "estimated_value": 20000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE 23 WINDOWS",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "2 Fernwood Rd",
+      "contractor_name": "Manuel D Vasconcelos",
+      "amount_paid": "$240.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578350+00:00",
+    "updated_at": "2026-05-14T04:24:57.578351+00:00"
+  },
+  {
+    "id": "7f1cea85-e6a8-4505-9dee-9464467488cf",
+    "permit_number": "BP-26-197",
+    "applicant_name": "Jennifer S Bylo",
+    "address": "Jeanmarie Spinetti",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "bath_renovation",
+    "permit_date": "2026-04-16",
+    "application_date": null,
+    "estimated_value": 17000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "RENOVATE 2ND FLOOR BATHROOM, UNIT #4",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "824 Main St, Unit 4",
+      "contractor_name": "Jennifer S Bylo",
+      "amount_paid": "$204.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578386+00:00",
+    "updated_at": "2026-05-14T04:24:57.578387+00:00"
+  },
+  {
+    "id": "4e7a3014-2cf7-4c2f-b24a-9b86c35f516e",
+    "permit_number": "BP-26-198",
+    "applicant_name": "Bryan Duby",
+    "address": "Laura Rheault",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-16",
+    "application_date": null,
+    "estimated_value": 7000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "47 Bay State Rd",
+      "contractor_name": "Bryan Duby",
+      "amount_paid": "$84.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578404+00:00",
+    "updated_at": "2026-05-14T04:24:57.578405+00:00"
+  },
+  {
+    "id": "d3ec061b-001e-4f5d-888f-9abbd1b0e65a",
+    "permit_number": "BP-26-199",
+    "applicant_name": "Hung Nguyen",
+    "address": "412 Main Street Llc",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-16",
+    "application_date": null,
+    "estimated_value": 40000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "TENANT FIT-UP",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "408 Main St",
+      "contractor_name": "Hung Nguyen",
+      "amount_paid": "$480.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578421+00:00",
+    "updated_at": "2026-05-14T04:24:57.578422+00:00"
+  },
+  {
+    "id": "4937437c-1e32-41e2-8b7a-ca77bafccaf7",
+    "permit_number": "BP-26-200",
+    "applicant_name": "Giuseppe G Fodera",
+    "address": "Luke Noreen - Noreen, Greasse Scarlett",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "kitchen_renovation",
+    "permit_date": "2026-04-16",
+    "application_date": null,
+    "estimated_value": 20000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "KITCHEN RENOVATION",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "16 Evangelista Way",
+      "contractor_name": "Giuseppe G Fodera",
+      "amount_paid": "$240.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578436+00:00",
+    "updated_at": "2026-05-14T04:24:57.578437+00:00"
+  },
+  {
+    "id": "34ecf35d-d99f-4535-8c0c-fc87726d30d2",
+    "permit_number": "BP-26-183",
+    "applicant_name": "Colburn J Symes",
+    "address": "East Llc Spartan Group - %Symes Associates",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-15",
+    "application_date": null,
+    "estimated_value": 148000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE 76 WINDOWS",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "1077 Main St",
+      "contractor_name": "Colburn J Symes",
+      "amount_paid": "$1,776.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578114+00:00",
+    "updated_at": "2026-05-14T04:24:57.578115+00:00"
+  },
+  {
+    "id": "a3a2baeb-b8c2-4ad9-8922-d910411a4712",
+    "permit_number": "BP-26-185",
+    "applicant_name": "Daniel A Burke",
+    "address": "Farrell, Robert S - Susan L Farrell",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-15",
+    "application_date": null,
+    "estimated_value": 11000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF MAIN HOUSE",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "25 Reynolds Rd",
+      "contractor_name": "Daniel A Burke",
+      "amount_paid": "$132.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578154+00:00",
+    "updated_at": "2026-05-14T04:24:57.578155+00:00"
+  },
+  {
+    "id": "10f494c6-d602-436a-94fa-fedf499fbfb3",
+    "permit_number": "BP-26-189",
+    "applicant_name": "Lawrence E Morgan, Jr",
+    "address": "Marc Chehwane",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-15",
+    "application_date": null,
+    "estimated_value": 10000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "10 Wolcott St",
+      "contractor_name": "Lawrence E Morgan, Jr",
+      "amount_paid": "$120.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578244+00:00",
+    "updated_at": "2026-05-14T04:24:57.578244+00:00"
+  },
+  {
+    "id": "49e31e64-b312-410c-9c90-00e66471db51",
+    "permit_number": "BP-26-190",
+    "applicant_name": "Andrew Comerford",
+    "address": "Mark S Henry - Henry, Barbara A",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "bath_renovation",
+    "permit_date": "2026-04-15",
+    "application_date": null,
+    "estimated_value": 41000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "RENOVATE 2ND FLOOR BATHROOM , REPLACE 5 WINDOWS",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "67 Gould St",
+      "contractor_name": "Andrew Comerford",
+      "amount_paid": "$492.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578260+00:00",
+    "updated_at": "2026-05-14T04:24:57.578261+00:00"
+  },
+  {
+    "id": "3b3b7767-2ec6-40a9-b157-4b7cd64c43c6",
+    "permit_number": "BP-26-191",
+    "applicant_name": "7 Coolidge Rd",
+    "address": "Nathan Koontz",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-15",
+    "application_date": null,
+    "estimated_value": 20000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "TAKING OVER FOR PERMIT #BP-26-134",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "7 Coolidge Rd",
+      "contractor_name": null,
+      "amount_paid": "$240.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578277+00:00",
+    "updated_at": "2026-05-14T04:24:57.578278+00:00"
+  },
+  {
+    "id": "b2546d5a-4aa7-4bc4-94e7-92ac0bd009f7",
+    "permit_number": "BP-26-192",
+    "applicant_name": "Robert Sardella",
+    "address": "Colombo Trs, Peter F - Ad Beaulieu Naumkeag Rty Tr",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-15",
+    "application_date": null,
+    "estimated_value": 2000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "1 WALL SIGN",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "336 Main St",
+      "contractor_name": "Robert Sardella",
+      "amount_paid": "$100.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578294+00:00",
+    "updated_at": "2026-05-14T04:24:57.578295+00:00"
+  },
+  {
+    "id": "1f12c540-4b66-4838-b3e7-236971d0d57f",
+    "permit_number": "BP-26-187",
+    "applicant_name": "12 Collins Rd",
+    "address": "Adriano Oliveira",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-14",
+    "application_date": null,
+    "estimated_value": 4000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE 12 WINDOWS",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "12 Collins Rd",
+      "contractor_name": null,
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578201+00:00",
+    "updated_at": "2026-05-14T04:24:57.578202+00:00"
+  },
+  {
+    "id": "281a3659-20f2-4d54-8d2d-1ded70e9236a",
+    "permit_number": "BP-26-188",
+    "applicant_name": "32 Eustis Ave",
+    "address": "Sean T Galletta - Rosenblatt, Claudia R",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-14",
+    "application_date": null,
+    "estimated_value": 5000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "6' x 10' SHED IN REAR OF PROPERTY",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "32 Eustis Ave",
+      "contractor_name": null,
+      "amount_paid": "$60.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578225+00:00",
+    "updated_at": "2026-05-14T04:24:57.578226+00:00"
+  },
+  {
+    "id": "645ba6bc-0813-475b-8472-213863bc5dad",
+    "permit_number": "BP-26-182",
+    "applicant_name": "Robert Leblanc",
+    "address": "Linda A Muse",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-13",
+    "application_date": null,
+    "estimated_value": 47000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE 8 WINDOWS, 1 PATIO DOOR",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "28 Paon Blvd",
+      "contractor_name": "Robert Leblanc",
+      "amount_paid": "$564.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578094+00:00",
+    "updated_at": "2026-05-14T04:24:57.578095+00:00"
+  },
+  {
+    "id": "811dfe0e-9f76-443e-ba1f-6fb3dd8bdd4f",
+    "permit_number": "BP-26-184",
+    "applicant_name": "Valentina Rincon",
+    "address": "Kevin Debenedetto",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-13",
+    "application_date": null,
+    "estimated_value": 4200.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REMOVE CUPOLA FROM ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "820 Main St, Unit 1",
+      "contractor_name": "Valentina Rincon",
+      "amount_paid": "$60.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578134+00:00",
+    "updated_at": "2026-05-14T04:24:57.578135+00:00"
+  },
+  {
+    "id": "91c1cf7d-88f9-46a9-9cc0-cb6dbd757cd8",
+    "permit_number": "BP-26-186",
+    "applicant_name": "Marc Wolfson Pinansky",
+    "address": "601 Edgwater Llc - %Hobbs Brook Mgmt Llc-Ap",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-13",
+    "application_date": null,
+    "estimated_value": 467000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "OFFICE BUILDOUT FOR BROWN & BROWN",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "701 Edgewater Dr",
+      "contractor_name": "Marc Wolfson Pinansky",
+      "amount_paid": "$5,604.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578178+00:00",
+    "updated_at": "2026-05-14T04:24:57.578179+00:00"
+  },
+  {
+    "id": "9d26afd5-21ef-4f59-acbe-ab98e3c86bca",
+    "permit_number": "BP-26-177",
+    "applicant_name": "Robert Leblanc",
+    "address": "Hickey Family Irr Trust",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-10",
+    "application_date": null,
+    "estimated_value": 12000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE 4 WINDOWS-NON STRUCTURAL",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "83 Preston St",
+      "contractor_name": "Robert Leblanc",
+      "amount_paid": "$144.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577994+00:00",
+    "updated_at": "2026-05-14T04:24:57.577995+00:00"
+  },
+  {
+    "id": "57c75b09-0d25-4f45-9d4a-514bd98b3210",
+    "permit_number": "BP-26-180",
+    "applicant_name": "Michael J Nugent",
+    "address": "Caruso 2018 Revoc Trust, Elaine & Russell",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-10",
+    "application_date": null,
+    "estimated_value": 17000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF HOUSE AND DETACHED GARAGE",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "18 Pine St",
+      "contractor_name": "Michael J Nugent",
+      "amount_paid": "$204.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578048+00:00",
+    "updated_at": "2026-05-14T04:24:57.578049+00:00"
+  },
+  {
+    "id": "ee25e9c3-5349-407b-8f89-142a18ca88ec",
+    "permit_number": "BP-26-181",
+    "applicant_name": "Robert Leblanc",
+    "address": "Carson Taylor Purtell",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-10",
+    "application_date": null,
+    "estimated_value": 20000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE 1 WINDOWS; 2 STORM DOORS",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "5 Forest St",
+      "contractor_name": "Robert Leblanc",
+      "amount_paid": "$240.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578068+00:00",
+    "updated_at": "2026-05-14T04:24:57.578069+00:00"
+  },
+  {
+    "id": "6086aaec-16e7-4c99-92bb-063f26200e0f",
+    "permit_number": "BP-26-166",
+    "applicant_name": "United Home Experts, Inc.",
+    "address": "Kenneth Barth - Barth, Kristie",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-09",
+    "application_date": null,
+    "estimated_value": 26000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REMOVE EXISTING SIDING AND REPLACE",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "7 George St",
+      "contractor_name": "United Home Experts, Inc.",
+      "amount_paid": "$312.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577799+00:00",
+    "updated_at": "2026-05-14T04:24:57.577800+00:00"
+  },
+  {
+    "id": "ff8bae08-f62b-4b2a-9b07-8e25c09383f6",
+    "permit_number": "BP-26-170",
+    "applicant_name": "Michael J Nugent",
+    "address": "Dennis P Maher - Costa, Danielle",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-09",
+    "application_date": null,
+    "estimated_value": 10000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "5 Holland Rd",
+      "contractor_name": "Michael J Nugent",
+      "amount_paid": "$120.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577867+00:00",
+    "updated_at": "2026-05-14T04:24:57.577868+00:00"
+  },
+  {
+    "id": "88459327-8da0-408c-a158-23766b21fa01",
+    "permit_number": "BP-26-174",
+    "applicant_name": "Christopher Zorzy",
+    "address": "Susan Lowell",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-09",
+    "application_date": null,
+    "estimated_value": 60000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "VINYL SIDE, ONE REPLACEMENT WINDOW",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "8 Nelson Ave",
+      "contractor_name": "Christopher Zorzy",
+      "amount_paid": "$720.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577934+00:00",
+    "updated_at": "2026-05-14T04:24:57.577935+00:00"
+  },
+  {
+    "id": "b1a9f207-494b-4ac8-b018-c7392988c20c",
+    "permit_number": "BP-26-175",
+    "applicant_name": "Amr Hafez",
+    "address": "Jean P Marcelin - Marcelin, Daphnee",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "addition",
+    "permit_date": "2026-04-09",
+    "application_date": null,
+    "estimated_value": 215000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "GARAGE ADDITION AND BASEMENT RENOVATION",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "17 Valley St",
+      "contractor_name": "Amr Hafez",
+      "amount_paid": "$2,580.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577951+00:00",
+    "updated_at": "2026-05-14T04:24:57.577952+00:00"
+  },
+  {
+    "id": "18425942-733d-452f-812f-cf6a5b8acbf3",
+    "permit_number": "BP-26-176",
+    "applicant_name": "David B Vanderbilt",
+    "address": "Timothy S Sherrerd - Sherrerd, Kaitlyn E",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-09",
+    "application_date": null,
+    "estimated_value": 28000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE 9 WINDOWS AND 2 ENTRY DOORS",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "6 Butler Ave",
+      "contractor_name": "David B Vanderbilt",
+      "amount_paid": "$336.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577971+00:00",
+    "updated_at": "2026-05-14T04:24:57.577972+00:00"
+  },
+  {
+    "id": "a3c7d3cf-ce04-4ac3-a091-0e14d5e5fa50",
+    "permit_number": "BP-26-178",
+    "applicant_name": "Brian T Maguire",
+    "address": "Stephen A Luciano - Luciano, Judith A",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "bath_renovation",
+    "permit_date": "2026-04-09",
+    "application_date": null,
+    "estimated_value": 32000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "RENOVATE BATHROOM",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "86 Greenwood St",
+      "contractor_name": "Brian T Maguire",
+      "amount_paid": "$384.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578011+00:00",
+    "updated_at": "2026-05-14T04:24:57.578011+00:00"
+  },
+  {
+    "id": "ac2d03a0-6be1-47f0-80a4-ffd03124b6ad",
+    "permit_number": "BP-26-179",
+    "applicant_name": "Brian C Macdonald",
+    "address": "Stephanie J Loomis",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "addition",
+    "permit_date": "2026-04-09",
+    "application_date": null,
+    "estimated_value": 224000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "260 SQ FT ADDITION , REMODEL EXISTING GARAGE",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "9 Robert St",
+      "contractor_name": "Brian C Macdonald",
+      "amount_paid": "$2,688.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.578027+00:00",
+    "updated_at": "2026-05-14T04:24:57.578028+00:00"
+  },
+  {
+    "id": "72c074e9-ae2c-46f5-a8fe-ead8ad0d7613",
+    "permit_number": "BP-26-169",
+    "applicant_name": "Nilmar J Rebellatto, Jr",
+    "address": "Brandon Laroche - Laroche, Laurel",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "bath_renovation",
+    "permit_date": "2026-04-08",
+    "application_date": null,
+    "estimated_value": 33000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "BATHROOM AND CLOSET RENOVATION",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "2 Dellanno Ln",
+      "contractor_name": "Nilmar J Rebellatto, Jr",
+      "amount_paid": "$396.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577849+00:00",
+    "updated_at": "2026-05-14T04:24:57.577850+00:00"
+  },
+  {
+    "id": "53545cdd-9cad-4f64-bbd6-decc9358e3ab",
+    "permit_number": "BP-26-171",
+    "applicant_name": "Fabio H Dearaujo",
+    "address": "Phillip Ables - Marcovici, Judith G",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "addition",
+    "permit_date": "2026-04-08",
+    "application_date": null,
+    "estimated_value": 184000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "SUNROOM/LIVING ROOM ADDITION",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "110 Spring St",
+      "contractor_name": "Fabio H Dearaujo",
+      "amount_paid": "$2,208.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577884+00:00",
+    "updated_at": "2026-05-14T04:24:57.577885+00:00"
+  },
+  {
+    "id": "9f1d88b7-f19c-42de-951e-131e8d82bcc6",
+    "permit_number": "BP-26-172",
+    "applicant_name": "Robert A Egan",
+    "address": "Poulakis Revoc Trust, Basil J",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "addition",
+    "permit_date": "2026-04-08",
+    "application_date": null,
+    "estimated_value": 312000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "2 STORY DETACHED ADU, 899 SQ FT",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "35 Eustis Ave",
+      "contractor_name": "Robert A Egan",
+      "amount_paid": "$3,744.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577900+00:00",
+    "updated_at": "2026-05-14T04:24:57.577901+00:00"
+  },
+  {
+    "id": "d4762cee-6368-4da8-a779-f094ca184353",
+    "permit_number": "BP-26-173",
+    "applicant_name": "Michael L Mercurio",
+    "address": "Jason Huston",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "bath_renovation",
+    "permit_date": "2026-04-08",
+    "application_date": null,
+    "estimated_value": 26000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "RENOVATE BATHROOM",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "5 Harrison Ave",
+      "contractor_name": "Michael L Mercurio",
+      "amount_paid": "$312.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577915+00:00",
+    "updated_at": "2026-05-14T04:24:57.577916+00:00"
+  },
+  {
+    "id": "dd36707e-8066-4091-a37a-eb8de00d393a",
+    "permit_number": "BP-26-156",
+    "applicant_name": "Robert Leblanc",
+    "address": "John Jr Borrelli - Kirwin, Luanne M",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-07",
+    "application_date": null,
+    "estimated_value": 121000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "replace 20 windows , 1 patio door",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "12 Orsini Drive",
+      "contractor_name": "Robert Leblanc",
+      "amount_paid": "$1,452.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577642+00:00",
+    "updated_at": "2026-05-14T04:24:57.577643+00:00"
+  },
+  {
+    "id": "43f06a6d-09d8-40ae-9223-c0d6f8be0cf7",
+    "permit_number": "BP-26-158",
+    "applicant_name": "Thomas B Burke",
+    "address": "Dominique Ouellet - Anquetil, Elie",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-07",
+    "application_date": null,
+    "estimated_value": 8000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "33 Warren Ave",
+      "contractor_name": "Thomas B Burke",
+      "amount_paid": "$96.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577660+00:00",
+    "updated_at": "2026-05-14T04:24:57.577661+00:00"
+  },
+  {
+    "id": "59ee35cf-2ac8-4c70-9b8a-82dc5199e712",
+    "permit_number": "BP-26-159",
+    "applicant_name": "Thomas B Burke",
+    "address": "Lorraine Lackey",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-07",
+    "application_date": null,
+    "estimated_value": 7000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "6 Wayland Rd",
+      "contractor_name": "Thomas B Burke",
+      "amount_paid": "$84.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577678+00:00",
+    "updated_at": "2026-05-14T04:24:57.577679+00:00"
+  },
+  {
+    "id": "7484e47d-c8dd-409f-a30b-3dabee4bbe93",
+    "permit_number": "BP-26-164",
+    "applicant_name": "Michael J Nugent",
+    "address": "Cronin, Joseph D - Patricia Dorazio",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-07",
+    "application_date": null,
+    "estimated_value": 24000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "6 Fourth St",
+      "contractor_name": "Michael J Nugent",
+      "amount_paid": "$288.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577760+00:00",
+    "updated_at": "2026-05-14T04:24:57.577761+00:00"
+  },
+  {
+    "id": "a9543595-8fec-4076-a61a-e4a157570416",
+    "permit_number": "BP-26-165",
+    "applicant_name": "Wendell Holmes",
+    "address": "Theriault, Allen D - Michelle M Theriault",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-07",
+    "application_date": null,
+    "estimated_value": 58000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "INSTALL 12 x 20 INGROUND POOL",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "11 King St",
+      "contractor_name": "Wendell Holmes",
+      "amount_paid": "$696.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577779+00:00",
+    "updated_at": "2026-05-14T04:24:57.577780+00:00"
+  },
+  {
+    "id": "fc773893-25c3-4141-ab5c-aef8d1650598",
+    "permit_number": "BP-26-167",
+    "applicant_name": "Peter Bernardo",
+    "address": "Steven M Iannelli - Iannelli, Jenna",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-07",
+    "application_date": null,
+    "estimated_value": 44000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "INSTALL 16 X 32 ABOVE GROUND POOL",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "20 Butler Ave",
+      "contractor_name": "Peter Bernardo",
+      "amount_paid": "$528.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577817+00:00",
+    "updated_at": "2026-05-14T04:24:57.577818+00:00"
+  },
+  {
+    "id": "73fc33d7-e19a-4a04-9c9c-2ea204ba09eb",
+    "permit_number": "BP-26-168",
+    "applicant_name": "Sergio M Silva",
+    "address": "M. Callahan Williams - Williams, D. S",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "kitchen_renovation",
+    "permit_date": "2026-04-07",
+    "application_date": null,
+    "estimated_value": 65000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "RENOVATE KITCHEN, INSTALL POCKET DOOR",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "24 Greenwood St",
+      "contractor_name": "Sergio M Silva",
+      "amount_paid": "$780.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577833+00:00",
+    "updated_at": "2026-05-14T04:24:57.577834+00:00"
+  },
+  {
+    "id": "9d7a37ac-dcf5-4614-93ad-6658daea3f52",
+    "permit_number": "BP-26-118",
+    "applicant_name": "Ted D Dow",
+    "address": "Lisa M Pizzano",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-06",
+    "application_date": null,
+    "estimated_value": 49000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "VINYL SIDING & GUTTERS",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "17 Forrester Rd",
+      "contractor_name": "Ted D Dow",
+      "amount_paid": "$588.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577282+00:00",
+    "updated_at": "2026-05-14T04:24:57.577283+00:00"
+  },
+  {
+    "id": "2603d8a6-559e-4acb-af9e-54e7fdba6ea5",
+    "permit_number": "BP-26-127",
+    "applicant_name": "Elmer Solano",
+    "address": "Assenzo, Dennis - Susan Assenzo",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-06",
+    "application_date": null,
+    "estimated_value": 14000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "40 Hopkins St",
+      "contractor_name": "Elmer Solano",
+      "amount_paid": "$168.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577302+00:00",
+    "updated_at": "2026-05-14T04:24:57.577303+00:00"
+  },
+  {
+    "id": "4ccba6a8-b09b-48c9-b389-debc44080cff",
+    "permit_number": "BP-26-161",
+    "applicant_name": "Stephen R Woodin",
+    "address": "Mercurio Joshua",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "new_construction",
+    "permit_date": "2026-04-06",
+    "application_date": null,
+    "estimated_value": null,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE PERMIT #BP-25-197.SINGLE FAMILY DWELLING",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "75 Nahant St",
+      "contractor_name": "Stephen R Woodin",
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577722+00:00",
+    "updated_at": "2026-05-14T04:24:57.577722+00:00"
+  },
+  {
+    "id": "61e0f1f1-2d33-4055-873e-fd6c5f757337",
+    "permit_number": "BP-26-162",
+    "applicant_name": "Stephen R Woodin",
+    "address": "Mercurio Joshua",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-06",
+    "application_date": null,
+    "estimated_value": null,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACES EXPIRED PERMIT #BP-24-685 TO RAZE BUILDING",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "75 Nahant St",
+      "contractor_name": "Stephen R Woodin",
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577742+00:00",
+    "updated_at": "2026-05-14T04:24:57.577743+00:00"
+  },
+  {
+    "id": "8e9f0cdf-ce96-4be3-89a2-c8982c931693",
+    "permit_number": "BP-26-141",
+    "applicant_name": "Andrew Laine",
+    "address": "Daniel Spencer",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-03",
+    "application_date": null,
+    "estimated_value": 10000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "26 Curve St",
+      "contractor_name": "Andrew Laine",
+      "amount_paid": "$120.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577361+00:00",
+    "updated_at": "2026-05-14T04:24:57.577362+00:00"
+  },
+  {
+    "id": "b63da97e-e277-48a6-8dd4-c3e9454e0140",
+    "permit_number": "BP-26-149",
+    "applicant_name": "Robert Leblanc",
+    "address": "Maryelizabeth M Lynch Tr - Lynch Family Trust",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-03",
+    "application_date": null,
+    "estimated_value": 18000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REMOVE & REPLACE 1 PATIO & 1 ENTRY DOOR",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "15 Perkins St",
+      "contractor_name": "Robert Leblanc",
+      "amount_paid": "$216.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577509+00:00",
+    "updated_at": "2026-05-14T04:24:57.577510+00:00"
+  },
+  {
+    "id": "ef53d5e5-19df-4989-8a0b-dc04472927b5",
+    "permit_number": "BP-26-154",
+    "applicant_name": "Ana C. Francisco Bazilio",
+    "address": "Louis E Iii Frederick - Frederick, Mary Grace",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-03",
+    "application_date": null,
+    "estimated_value": 5000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "CAP CHIMNEY AND DEMO",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "11 Charles St",
+      "contractor_name": "Ana C. Francisco Bazilio",
+      "amount_paid": "$60.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577605+00:00",
+    "updated_at": "2026-05-14T04:24:57.577606+00:00"
+  },
+  {
+    "id": "7b2c57c2-948f-44a8-a824-9935baf33035",
+    "permit_number": "BP-26-155",
+    "applicant_name": "Christopher P Gianatassio",
+    "address": "Cdg Investments",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-03",
+    "application_date": null,
+    "estimated_value": 3000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "BEAM REPLACEMENT IN BASEMENT",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "14 Sycamore Rd",
+      "contractor_name": "Christopher P Gianatassio",
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577622+00:00",
+    "updated_at": "2026-05-14T04:24:57.577623+00:00"
+  },
+  {
+    "id": "cb85fe1a-5767-4e2e-82fd-1bd364b0e1e1",
+    "permit_number": "BP-26-117",
+    "applicant_name": "Ted D Dow",
+    "address": "17 Sunset Dr Realty Trust",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-02",
+    "application_date": null,
+    "estimated_value": 40000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "VINYL SIDING",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "17 Sunset Dr",
+      "contractor_name": "Ted D Dow",
+      "amount_paid": "$480.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577260+00:00",
+    "updated_at": "2026-05-14T04:24:57.577262+00:00"
+  },
+  {
+    "id": "07e4e97f-7784-4d94-a9c1-1621d9947036",
+    "permit_number": "BP-26-140",
+    "applicant_name": "Manuel D Vasconcelos",
+    "address": "Marguerite S Messina",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-02",
+    "application_date": null,
+    "estimated_value": 2000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "1 REPLACEMENT WINDOW",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "7 Bancroft Ave",
+      "contractor_name": "Manuel D Vasconcelos",
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577343+00:00",
+    "updated_at": "2026-05-14T04:24:57.577344+00:00"
+  },
+  {
+    "id": "b0980bfa-f412-4da3-a6c3-373d17067b1c",
+    "permit_number": "BP-26-147",
+    "applicant_name": "Robert Poczobut",
+    "address": "Isabelle M Wiryo",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-02",
+    "application_date": null,
+    "estimated_value": 2000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REPLACE 1 WINDOW-NON STRUCTURAL",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "997 Main St, Unit O",
+      "contractor_name": "Robert Poczobut",
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577471+00:00",
+    "updated_at": "2026-05-14T04:24:57.577472+00:00"
+  },
+  {
+    "id": "60ed0b92-3518-484f-9a29-2a6695e35cf8",
+    "permit_number": "BP-26-148",
+    "applicant_name": "Robert H Demild, Jr",
+    "address": "Patricia C Demild Tr - Demild Wakefield Trust",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "bath_renovation",
+    "permit_date": "2026-04-02",
+    "application_date": null,
+    "estimated_value": 15000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "RENOVATE BATHROOM",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "20 Chestnut St",
+      "contractor_name": "Robert H Demild, Jr",
+      "amount_paid": "$180.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577488+00:00",
+    "updated_at": "2026-05-14T04:24:57.577489+00:00"
+  },
+  {
+    "id": "5b52e23f-a503-48ae-abf6-b6f447e3dd88",
+    "permit_number": "BP-26-150",
+    "applicant_name": "Peter A Leblanc",
+    "address": "Liam & Kristen Crowley",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-02",
+    "application_date": null,
+    "estimated_value": 3000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "INSULATE EXTERIOR WALLS AND RIM JOIST",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "25 Wiley St",
+      "contractor_name": "Peter A Leblanc",
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577528+00:00",
+    "updated_at": "2026-05-14T04:24:57.577529+00:00"
+  },
+  {
+    "id": "f37f00a5-5f73-4956-aa24-b71cdfea2157",
+    "permit_number": "BP-26-151",
+    "applicant_name": "Peter A Leblanc",
+    "address": "A. J Daniela M Colarusso - Colarusso, D. Marie",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-02",
+    "application_date": null,
+    "estimated_value": 5000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "WEATHERIZE",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "15 Hopkins St",
+      "contractor_name": "Peter A Leblanc",
+      "amount_paid": "$60.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577548+00:00",
+    "updated_at": "2026-05-14T04:24:57.577549+00:00"
+  },
+  {
+    "id": "bf87e3d5-f392-4afe-afec-51bbb3752a4e",
+    "permit_number": "BP-26-152",
+    "applicant_name": "Peter A Leblanc",
+    "address": "Jerald H Bluhm - Sedlacko, Irene R",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-02",
+    "application_date": null,
+    "estimated_value": 3000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "INSULATE EXTERIOR WALLS, AIR SEAL CHIMNEY",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "60 Elm St",
+      "contractor_name": "Peter A Leblanc",
+      "amount_paid": "$50.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577568+00:00",
+    "updated_at": "2026-05-14T04:24:57.577569+00:00"
+  },
+  {
+    "id": "1f556c6c-c5a3-4e82-baf8-511111b4df12",
+    "permit_number": "BP-26-153",
+    "applicant_name": "Peter A Leblanc",
+    "address": "Patrick M Travis - Travis, Silvia Rr",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-02",
+    "application_date": null,
+    "estimated_value": 6000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "INSULATE",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "34 Pleasant St",
+      "contractor_name": "Peter A Leblanc",
+      "amount_paid": "$72.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577586+00:00",
+    "updated_at": "2026-05-14T04:24:57.577587+00:00"
+  },
+  {
+    "id": "2b5bee34-d583-4e0d-8192-9bbdae0c69ea",
+    "permit_number": "BP-26-139",
+    "applicant_name": "Mark E Mordini",
+    "address": "Colleen S Walsh - Graham, Kenneth A",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-01",
+    "application_date": null,
+    "estimated_value": 26000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "STRIP & RE-ROOF",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
+      "owner_name": "49 Wiley St",
+      "contractor_name": "Mark E Mordini",
+      "amount_paid": "$312.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577322+00:00",
+    "updated_at": "2026-05-14T04:24:57.577323+00:00"
+  },
+  {
+    "id": "e6b05de8-9faf-406a-9ed8-8d04caf00e80",
+    "permit_number": "BP-26-142",
+    "applicant_name": "Jason M Mello",
+    "address": "Gregg Kulchik",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-01",
+    "application_date": null,
+    "estimated_value": 15000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REMOVE/REPLACE EXISTING DECK/SAME FOOTPRINT",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "464 Lowell St",
+      "contractor_name": "Jason M Mello",
+      "amount_paid": "$180.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577379+00:00",
+    "updated_at": "2026-05-14T04:24:57.577380+00:00"
+  },
+  {
+    "id": "9299059e-f54a-449d-a74d-00645076b94a",
+    "permit_number": "BP-26-143",
+    "applicant_name": "Dale C Harvey",
+    "address": "Stefano Mitrano - Herrick, Kiley",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "addition",
+    "permit_date": "2026-04-01",
+    "application_date": null,
+    "estimated_value": 206000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "TWO STORY ADDITION",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "106 Elm St",
+      "contractor_name": "Dale C Harvey",
+      "amount_paid": "$2,472.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577395+00:00",
+    "updated_at": "2026-05-14T04:24:57.577396+00:00"
+  },
+  {
+    "id": "5d2932d8-0f9f-4a62-a65f-b86548b204c1",
+    "permit_number": "BP-26-144",
+    "applicant_name": "William T Broadley",
+    "address": "601 Edgwater Llc - %Hobbs Brook Mgmt Llc-Ap",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-01",
+    "application_date": null,
+    "estimated_value": 68000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "CONSTRUCT A NEW ADA RESTROOM",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "601 Edgewater Dr",
+      "contractor_name": "William T Broadley",
+      "amount_paid": "$816.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577415+00:00",
+    "updated_at": "2026-05-14T04:24:57.577416+00:00"
+  },
+  {
+    "id": "6ae3c952-6f30-4e14-8b11-27115e97c5c2",
+    "permit_number": "BP-26-145",
+    "applicant_name": "7 Meriam St",
+    "address": "Rebecca Foster Smith - Buchmelter, Dennis",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-04-01",
+    "application_date": null,
+    "estimated_value": 42000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "REMOVE EXISTING SHED AND REPLACE WITH NEW",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "7 Meriam St",
+      "contractor_name": null,
+      "amount_paid": "$504.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577433+00:00",
+    "updated_at": "2026-05-14T04:24:57.577434+00:00"
+  },
+  {
+    "id": "42ca51ed-7d45-4952-86fc-2a96b68bc9a6",
+    "permit_number": "BP-26-146",
+    "applicant_name": "Diego Ribeiro Cittadin",
+    "address": "Dc Property Investments",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "renovation",
+    "permit_date": "2026-04-01",
+    "application_date": null,
+    "estimated_value": 30000.0,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "DEMO EXTERIOR WALL, WINDOWS AND SIDING",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "95 Greenwood Ave",
+      "contractor_name": "Diego Ribeiro Cittadin",
+      "amount_paid": "$360.00",
+      "month_file": "wakefield-2684-April-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:57.577451+00:00",
+    "updated_at": "2026-05-14T04:24:57.577452+00:00"
+  },
+  {
+    "id": "eb4eafd1-88cc-4bc7-975d-c93d329ceeb1",
     "permit_number": "BP-26-135",
     "applicant_name": "Michael Griffin",
     "address": "15 Chapman Rd",
@@ -21,13 +2640,13 @@
       "owner_name": "Sellers Family Trust",
       "contractor_name": "Michael Griffin",
       "amount_paid": "$540.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526159+00:00",
-    "updated_at": "2026-05-03T20:12:57.526160+00:00"
+    "created_at": "2026-05-14T04:24:56.939003+00:00",
+    "updated_at": "2026-05-14T04:24:56.939004+00:00"
   },
   {
-    "id": "ee18451f-fa72-4359-86c1-14ecd6e63ae3",
+    "id": "61d79eec-f2b7-462b-9eae-eb463dcb43b7",
     "permit_number": "BP-26-130",
     "applicant_name": "Evelio Lemus",
     "address": "13 Emerald St",
@@ -48,13 +2667,13 @@
       "owner_name": "John Amentola",
       "contractor_name": "Evelio Lemus",
       "amount_paid": "$168.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526057+00:00",
-    "updated_at": "2026-05-03T20:12:57.526058+00:00"
+    "created_at": "2026-05-14T04:24:56.938901+00:00",
+    "updated_at": "2026-05-14T04:24:56.938902+00:00"
   },
   {
-    "id": "e8a15536-dc11-40de-a9be-e7733e2ceb35",
+    "id": "beddfcd4-fa7e-488d-8599-7f18022ea3c1",
     "permit_number": "BP-26-131",
     "applicant_name": "John C Dudley",
     "address": "22 Holland Rd",
@@ -75,13 +2694,13 @@
       "owner_name": "Adam T Szymczak - Carbone, Gina M",
       "contractor_name": "John C Dudley",
       "amount_paid": "$312.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526076+00:00",
-    "updated_at": "2026-05-03T20:12:57.526077+00:00"
+    "created_at": "2026-05-14T04:24:56.938922+00:00",
+    "updated_at": "2026-05-14T04:24:56.938923+00:00"
   },
   {
-    "id": "4dc6c9f4-f6ab-4768-9d55-f3667489f7a7",
+    "id": "89946794-6722-4832-b48a-a60053cf3ae6",
     "permit_number": "BP-26-132",
     "applicant_name": "Jack I Golini",
     "address": "7 Laurel St",
@@ -102,13 +2721,13 @@
       "owner_name": "Stackhouse, Mark J - Linda M Stackhouse",
       "contractor_name": "Jack I Golini",
       "amount_paid": "$144.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526101+00:00",
-    "updated_at": "2026-05-03T20:12:57.526102+00:00"
+    "created_at": "2026-05-14T04:24:56.938943+00:00",
+    "updated_at": "2026-05-14T04:24:56.938944+00:00"
   },
   {
-    "id": "7e43480e-279b-4fb9-9010-819afa83cd0e",
+    "id": "a89e1a14-2f79-473b-a6ce-782cfe3dae6a",
     "permit_number": "BP-26-133",
     "applicant_name": "Jack I Golini",
     "address": "72 Melvin St",
@@ -129,13 +2748,13 @@
       "owner_name": "Franklin C L, Joan D L Est Leone , M J & F C Jr",
       "contractor_name": "Jack I Golini",
       "amount_paid": "$192.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526122+00:00",
-    "updated_at": "2026-05-03T20:12:57.526123+00:00"
+    "created_at": "2026-05-14T04:24:56.938964+00:00",
+    "updated_at": "2026-05-14T04:24:56.938965+00:00"
   },
   {
-    "id": "c9459b8b-4737-408b-a030-c17c8eb45406",
+    "id": "524ef8a9-6267-412f-a633-f42008577cb4",
     "permit_number": "BP-26-134",
     "applicant_name": "Eduardo Muniz",
     "address": "7 Coolidge Rd",
@@ -156,13 +2775,13 @@
       "owner_name": "Nathan Koontz",
       "contractor_name": "Eduardo Muniz",
       "amount_paid": "$552.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526140+00:00",
-    "updated_at": "2026-05-03T20:12:57.526141+00:00"
+    "created_at": "2026-05-14T04:24:56.938983+00:00",
+    "updated_at": "2026-05-14T04:24:56.938984+00:00"
   },
   {
-    "id": "7513441b-7a23-4c51-8a6d-821041820f75",
+    "id": "cc53678f-dda8-480f-b208-d705e4a147be",
     "permit_number": "BP-26-136",
     "applicant_name": "John Perry",
     "address": "128 Chestnut St",
@@ -183,13 +2802,13 @@
       "owner_name": "Nixon J Stephen - Nixon Colleen M",
       "contractor_name": "John Perry",
       "amount_paid": "$564.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526174+00:00",
-    "updated_at": "2026-05-03T20:12:57.526175+00:00"
+    "created_at": "2026-05-14T04:24:56.939020+00:00",
+    "updated_at": "2026-05-14T04:24:56.939021+00:00"
   },
   {
-    "id": "505402f6-41ca-44ad-806b-6415f5cd1c3b",
+    "id": "2a647431-9206-4171-8b20-876b80a63c3f",
     "permit_number": "BP-26-137",
     "applicant_name": "43 Elm St Realty Trust",
     "address": "43 Elm St",
@@ -210,13 +2829,13 @@
       "owner_name": "43 Elm St Realty Trust",
       "contractor_name": null,
       "amount_paid": "$6,000.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526189+00:00",
-    "updated_at": "2026-05-03T20:12:57.526190+00:00"
+    "created_at": "2026-05-14T04:24:56.939035+00:00",
+    "updated_at": "2026-05-14T04:24:56.939036+00:00"
   },
   {
-    "id": "8d77183c-4d73-43d2-8bfb-c74d58b7938a",
+    "id": "7da77160-8d11-431d-947b-465d2442b89a",
     "permit_number": "BP-26-138",
     "applicant_name": "43 Elm St Realty Trust",
     "address": "43 Elm St",
@@ -237,13 +2856,13 @@
       "owner_name": "43 Elm St Realty Trust",
       "contractor_name": null,
       "amount_paid": "$1,860.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526206+00:00",
-    "updated_at": "2026-05-03T20:12:57.526207+00:00"
+    "created_at": "2026-05-14T04:24:56.939053+00:00",
+    "updated_at": "2026-05-14T04:24:56.939054+00:00"
   },
   {
-    "id": "54c17cb1-b828-48a8-9ece-28a13a2133cd",
+    "id": "3a102e62-2a05-40d4-88da-f18d3125e888",
     "permit_number": "BP-26-103",
     "applicant_name": "Ana Carolina Francisco Bazilio",
     "address": "11 Charles St",
@@ -264,13 +2883,13 @@
       "owner_name": "Louis E Iii Frederick - Frederick, Mary G",
       "contractor_name": "Ana Carolina Francisco Bazilio",
       "amount_paid": "$168.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525632+00:00",
-    "updated_at": "2026-05-03T20:12:57.525633+00:00"
+    "created_at": "2026-05-14T04:24:56.938419+00:00",
+    "updated_at": "2026-05-14T04:24:56.938420+00:00"
   },
   {
-    "id": "5dc70798-bc39-422e-b81e-97d6a2c98530",
+    "id": "c7dc64e8-c702-4629-bebe-1ea5c42997af",
     "permit_number": "BP-26-126",
     "applicant_name": "Ryan Cooper",
     "address": "65 Montrose Ave",
@@ -291,13 +2910,13 @@
       "owner_name": "Ryan Cooper",
       "contractor_name": null,
       "amount_paid": "$144.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526001+00:00",
-    "updated_at": "2026-05-03T20:12:57.526001+00:00"
+    "created_at": "2026-05-14T04:24:56.938838+00:00",
+    "updated_at": "2026-05-14T04:24:56.938839+00:00"
   },
   {
-    "id": "dd717ae4-51eb-423b-8034-6186a96a06e2",
+    "id": "86e80a7c-a84d-4447-974e-939038708dba",
     "permit_number": "BP-26-128",
     "applicant_name": "Andris J Kaza",
     "address": "22 Wayland Rd",
@@ -318,13 +2937,13 @@
       "owner_name": "Karlis Kaza",
       "contractor_name": "Andris J Kaza",
       "amount_paid": "$2,940.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526019+00:00",
-    "updated_at": "2026-05-03T20:12:57.526020+00:00"
+    "created_at": "2026-05-14T04:24:56.938859+00:00",
+    "updated_at": "2026-05-14T04:24:56.938860+00:00"
   },
   {
-    "id": "d7b1cd6d-46f0-478a-af04-0b14a6cf621b",
+    "id": "24be338f-f2ee-43e4-b508-e18e7a470336",
     "permit_number": "BP-26-129",
     "applicant_name": "Evelio Lemus",
     "address": "10 Columbia Rd",
@@ -345,13 +2964,13 @@
       "owner_name": "Daniel Cole",
       "contractor_name": "Evelio Lemus",
       "amount_paid": "$264.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526038+00:00",
-    "updated_at": "2026-05-03T20:12:57.526039+00:00"
+    "created_at": "2026-05-14T04:24:56.938880+00:00",
+    "updated_at": "2026-05-14T04:24:56.938881+00:00"
   },
   {
-    "id": "44e5e9d8-4778-46ea-b469-0512cee813a3",
+    "id": "20a557c2-613d-418b-86c3-ba322109f37e",
     "permit_number": "BP-26-119",
     "applicant_name": "Shawn R Fales",
     "address": "22 Park St",
@@ -372,13 +2991,13 @@
       "owner_name": "Charles Minasian",
       "contractor_name": "Shawn R Fales",
       "amount_paid": "$192.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525883+00:00",
-    "updated_at": "2026-05-03T20:12:57.525883+00:00"
+    "created_at": "2026-05-14T04:24:56.938695+00:00",
+    "updated_at": "2026-05-14T04:24:56.938695+00:00"
   },
   {
-    "id": "2bef298a-e5cb-4910-9718-f26c500f2f8e",
+    "id": "0143d5c9-eb30-44b1-9df1-23e424c70ddd",
     "permit_number": "BP-26-125",
     "applicant_name": "Jackson C Kellogg",
     "address": "9 King St",
@@ -399,13 +3018,13 @@
       "owner_name": "Stinson, Mark K - Joan M Stinson",
       "contractor_name": "Jackson C Kellogg",
       "amount_paid": "$372.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525985+00:00",
-    "updated_at": "2026-05-03T20:12:57.525986+00:00"
+    "created_at": "2026-05-14T04:24:56.938821+00:00",
+    "updated_at": "2026-05-14T04:24:56.938822+00:00"
   },
   {
-    "id": "aae435f4-c820-4596-9075-e8c77c39e257",
+    "id": "2375b72c-7610-4b10-aefd-2afa8ff5f02f",
     "permit_number": "BP-26-115",
     "applicant_name": "Frs Company Inc.",
     "address": "113 Salem St",
@@ -426,13 +3045,13 @@
       "owner_name": "Kyle B Destefano",
       "contractor_name": "Frs Company Inc.",
       "amount_paid": "$156.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525845+00:00",
-    "updated_at": "2026-05-03T20:12:57.525846+00:00"
+    "created_at": "2026-05-14T04:24:56.938654+00:00",
+    "updated_at": "2026-05-14T04:24:56.938655+00:00"
   },
   {
-    "id": "2487776a-1cae-48e0-af5d-18a04cdbc8f9",
+    "id": "de5d999f-d25c-4279-8db0-3f0c365a080f",
     "permit_number": "BP-26-120",
     "applicant_name": "Sean P Fennell",
     "address": "68 Plymouth Rd",
@@ -453,13 +3072,13 @@
       "owner_name": "Kara L Cohen - Buonopane, Kathy A",
       "contractor_name": "Sean P Fennell",
       "amount_paid": "$252.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525899+00:00",
-    "updated_at": "2026-05-03T20:12:57.525900+00:00"
+    "created_at": "2026-05-14T04:24:56.938712+00:00",
+    "updated_at": "2026-05-14T04:24:56.938713+00:00"
   },
   {
-    "id": "1e1c333c-7329-4a70-9912-a34781b8be57",
+    "id": "b45f33c1-7e3d-4263-867c-8da16dc4d6d2",
     "permit_number": "BP-26-121",
     "applicant_name": "Paul R Sramowicz",
     "address": "4 Overlook Rd",
@@ -480,13 +3099,13 @@
       "owner_name": "Pm Homes Llc",
       "contractor_name": "Paul R Sramowicz",
       "amount_paid": "$2,100.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525915+00:00",
-    "updated_at": "2026-05-03T20:12:57.525916+00:00"
+    "created_at": "2026-05-14T04:24:56.938737+00:00",
+    "updated_at": "2026-05-14T04:24:56.938739+00:00"
   },
   {
-    "id": "0cfab21d-4f8e-4ac9-9ed6-e015982f47aa",
+    "id": "65ce05d9-c6b4-4960-9cf9-7b718379dd7a",
     "permit_number": "BP-26-122",
     "applicant_name": "Jack I Golini",
     "address": "16 Indian Ln",
@@ -507,13 +3126,13 @@
       "owner_name": "Turco Realty Trust",
       "contractor_name": "Jack I Golini",
       "amount_paid": "$156.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525934+00:00",
-    "updated_at": "2026-05-03T20:12:57.525935+00:00"
+    "created_at": "2026-05-14T04:24:56.938761+00:00",
+    "updated_at": "2026-05-14T04:24:56.938762+00:00"
   },
   {
-    "id": "c585b75a-2e63-414c-ac06-faa4cddea89a",
+    "id": "d4ed11b6-a957-492f-90fe-b2d43de961cc",
     "permit_number": "BP-26-123",
     "applicant_name": "Agelis A. M Silva",
     "address": "21 Scott Ln",
@@ -534,13 +3153,13 @@
       "owner_name": "Gabriela Satiro - Rodrigues, Reginaldo",
       "contractor_name": "Agelis A. M Silva",
       "amount_paid": "$240.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525952+00:00",
-    "updated_at": "2026-05-03T20:12:57.525953+00:00"
+    "created_at": "2026-05-14T04:24:56.938780+00:00",
+    "updated_at": "2026-05-14T04:24:56.938781+00:00"
   },
   {
-    "id": "28f1f3a8-d83f-4070-ae5e-875a8f0e90c2",
+    "id": "3b6ab752-29fc-4770-88cc-bf9e4ac9d51b",
     "permit_number": "BP-26-124",
     "applicant_name": "Agelis A. M Silva",
     "address": "21 Scott Ln",
@@ -561,13 +3180,13 @@
       "owner_name": "Gabriela Satiro - Rodrigues, Reginaldo",
       "contractor_name": "Agelis A. M Silva",
       "amount_paid": "$60.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525969+00:00",
-    "updated_at": "2026-05-03T20:12:57.525970+00:00"
+    "created_at": "2026-05-14T04:24:56.938802+00:00",
+    "updated_at": "2026-05-14T04:24:56.938804+00:00"
   },
   {
-    "id": "6c5b2ba1-eddf-4dc1-a075-7c89cd81d3f9",
+    "id": "f4d30a7b-b46d-4dcd-b08a-f249cc3463bc",
     "permit_number": "BP-26-90",
     "applicant_name": "Brent Watkins",
     "address": "259 Albion St",
@@ -588,13 +3207,13 @@
       "owner_name": "Jared R Mullane",
       "contractor_name": "Brent Watkins",
       "amount_paid": "$132.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526659+00:00",
-    "updated_at": "2026-05-03T20:12:57.526660+00:00"
+    "created_at": "2026-05-14T04:24:56.939548+00:00",
+    "updated_at": "2026-05-14T04:24:56.939549+00:00"
   },
   {
-    "id": "92be2be6-967f-4270-ad4d-3c28401fab66",
+    "id": "bcbdcc5e-b80e-499d-bc7f-3fe90824b781",
     "permit_number": "BP-26-100",
     "applicant_name": "Ted D Dow",
     "address": "17 Forrester Rd",
@@ -615,13 +3234,13 @@
       "owner_name": "Lisa M Pizzano",
       "contractor_name": "Ted D Dow",
       "amount_paid": "$228.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525587+00:00",
-    "updated_at": "2026-05-03T20:12:57.525589+00:00"
+    "created_at": "2026-05-14T04:24:56.938367+00:00",
+    "updated_at": "2026-05-14T04:24:56.938368+00:00"
   },
   {
-    "id": "6813a58e-9749-4a02-931d-55dc17d8ba0a",
+    "id": "20f45b11-d512-4b94-b649-cc15fdbba9ab",
     "permit_number": "BP-26-105",
     "applicant_name": "David H Smith",
     "address": "285 Salem St",
@@ -642,13 +3261,13 @@
       "owner_name": "Donna L James - Streck, Alan R",
       "contractor_name": "David H Smith",
       "amount_paid": "$132.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525669+00:00",
-    "updated_at": "2026-05-03T20:12:57.525670+00:00"
+    "created_at": "2026-05-14T04:24:56.938460+00:00",
+    "updated_at": "2026-05-14T04:24:56.938461+00:00"
   },
   {
-    "id": "8052c035-850d-430e-80d2-d485c6858370",
+    "id": "7e81aa4b-8860-4b60-a5c8-4db3ceefcd08",
     "permit_number": "BP-26-108",
     "applicant_name": "Blessed Express Painting & Svcs",
     "address": "108 Greenwood St",
@@ -669,13 +3288,13 @@
       "owner_name": "Anto Sianturi Northstars Realty Llc",
       "contractor_name": "Blessed Express Painting & Svcs",
       "amount_paid": "$108.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525723+00:00",
-    "updated_at": "2026-05-03T20:12:57.525724+00:00"
+    "created_at": "2026-05-14T04:24:56.938518+00:00",
+    "updated_at": "2026-05-14T04:24:56.938519+00:00"
   },
   {
-    "id": "c54e022b-b14d-4c2f-85b6-7089656153e0",
+    "id": "b4e74578-797c-4fdf-8084-60c4063ff024",
     "permit_number": "BP-26-111",
     "applicant_name": "Ted D Dow",
     "address": "11 Strathmore Rd",
@@ -696,13 +3315,13 @@
       "owner_name": "Michael Sessa - Sessa, Jillian",
       "contractor_name": "Ted D Dow",
       "amount_paid": "$252.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525777+00:00",
-    "updated_at": "2026-05-03T20:12:57.525778+00:00"
+    "created_at": "2026-05-14T04:24:56.938579+00:00",
+    "updated_at": "2026-05-14T04:24:56.938580+00:00"
   },
   {
-    "id": "7f3e9b39-e123-46b2-b8cd-40b284785f83",
+    "id": "d0c4c8af-7977-4cbc-936c-90abd33cc188",
     "permit_number": "BP-26-112",
     "applicant_name": "Eric Savage",
     "address": "11 Elm Crest Rd",
@@ -723,13 +3342,13 @@
       "owner_name": "Michael & Lauren Walbourne",
       "contractor_name": "Eric Savage",
       "amount_paid": "$576.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525795+00:00",
-    "updated_at": "2026-05-03T20:12:57.525796+00:00"
+    "created_at": "2026-05-14T04:24:56.938599+00:00",
+    "updated_at": "2026-05-14T04:24:56.938600+00:00"
   },
   {
-    "id": "3c4359ee-6071-4e82-8300-674e6502d6fc",
+    "id": "69632d20-2da2-453a-afdb-4b853a7a18df",
     "permit_number": "BP-26-113",
     "applicant_name": "Carl & Jessica Oliveri",
     "address": "33 Gregory Rd",
@@ -750,13 +3369,13 @@
       "owner_name": "Carl & Jessica Oliveri",
       "contractor_name": null,
       "amount_paid": "$108.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525812+00:00",
-    "updated_at": "2026-05-03T20:12:57.525813+00:00"
+    "created_at": "2026-05-14T04:24:56.938618+00:00",
+    "updated_at": "2026-05-14T04:24:56.938619+00:00"
   },
   {
-    "id": "e398b5fa-7c73-45f8-95f0-754f6c4b5438",
+    "id": "4d0bf616-8c81-4348-a97c-393d4d2ad0d3",
     "permit_number": "BP-26-114",
     "applicant_name": "Caroline Mclaughlin",
     "address": "70 Old Nahant Rd",
@@ -777,13 +3396,13 @@
       "owner_name": "Caroline Mclaughlin",
       "contractor_name": null,
       "amount_paid": "$588.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525827+00:00",
-    "updated_at": "2026-05-03T20:12:57.525828+00:00"
+    "created_at": "2026-05-14T04:24:56.938634+00:00",
+    "updated_at": "2026-05-14T04:24:56.938635+00:00"
   },
   {
-    "id": "d0bdb8a2-aa2a-479d-874a-ed2d110b7fcd",
+    "id": "fe447f31-0c35-4d1f-91b8-9d5be81c5595",
     "permit_number": "BP-26-116",
     "applicant_name": "Wayne A Cocorochio",
     "address": "12 Montclare Ave",
@@ -804,13 +3423,13 @@
       "owner_name": "Blaser Revoc Trust, Robert J",
       "contractor_name": "Wayne A Cocorochio",
       "amount_paid": "$1,200.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525864+00:00",
-    "updated_at": "2026-05-03T20:12:57.525865+00:00"
+    "created_at": "2026-05-14T04:24:56.938675+00:00",
+    "updated_at": "2026-05-14T04:24:56.938675+00:00"
   },
   {
-    "id": "4dc042dc-a8aa-4356-8143-09c0a1dea3c5",
+    "id": "8c8e24d6-210c-4176-923f-608fce5f63e6",
     "permit_number": "BP-26-99",
     "applicant_name": "Ted D Dow",
     "address": "6 Spring Ave",
@@ -831,13 +3450,13 @@
       "owner_name": "Sarah E. Keeping - Carley, Margaret C.",
       "contractor_name": "Ted D Dow",
       "amount_paid": "$240.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526823+00:00",
-    "updated_at": "2026-05-03T20:12:57.526823+00:00"
+    "created_at": "2026-05-14T04:24:56.939729+00:00",
+    "updated_at": "2026-05-14T04:24:56.939730+00:00"
   },
   {
-    "id": "70bbb83c-0058-422f-9823-5c8ee127d5fb",
+    "id": "62c0f421-6355-4758-bdcf-f151e834b83d",
     "permit_number": "BP-26-107",
     "applicant_name": "Caroline Mclaughlin",
     "address": "70 Old Nahant Rd",
@@ -858,13 +3477,13 @@
       "owner_name": "Caroline Mclaughlin",
       "contractor_name": null,
       "amount_paid": "$192.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525703+00:00",
-    "updated_at": "2026-05-03T20:12:57.525704+00:00"
+    "created_at": "2026-05-14T04:24:56.938498+00:00",
+    "updated_at": "2026-05-14T04:24:56.938499+00:00"
   },
   {
-    "id": "e4e43ac7-838e-4eff-b91a-e63c21371cae",
+    "id": "72c96a6e-6b86-4348-8850-1a72d48144a8",
     "permit_number": "BP-26-109",
     "applicant_name": "David Krasny",
     "address": "48 Wave Ave",
@@ -885,13 +3504,13 @@
       "owner_name": "Wright, Stephen E",
       "contractor_name": "David Krasny",
       "amount_paid": "$180.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525740+00:00",
-    "updated_at": "2026-05-03T20:12:57.525741+00:00"
+    "created_at": "2026-05-14T04:24:56.938538+00:00",
+    "updated_at": "2026-05-14T04:24:56.938539+00:00"
   },
   {
-    "id": "c7ed21a1-b6ed-474a-92e7-d277ddeae77e",
+    "id": "8ec975cb-6d20-44ea-b04e-a9ddc882555e",
     "permit_number": "BP-26-110",
     "applicant_name": "Robert J Mcguire, Jr",
     "address": "5 Roosevelt Rd",
@@ -912,13 +3531,13 @@
       "owner_name": "Christian & Diane Brackett",
       "contractor_name": "Robert J Mcguire, Jr",
       "amount_paid": "$768.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525757+00:00",
-    "updated_at": "2026-05-03T20:12:57.525758+00:00"
+    "created_at": "2026-05-14T04:24:56.938557+00:00",
+    "updated_at": "2026-05-14T04:24:56.938558+00:00"
   },
   {
-    "id": "b466990f-ada6-42ba-b8ba-de37296cdc2e",
+    "id": "2cfe2353-055c-4b7d-be82-1cb8c8aebe2a",
     "permit_number": "BP-26-106",
     "applicant_name": "Paul R Arpin",
     "address": "142 Broadway",
@@ -939,13 +3558,13 @@
       "owner_name": "Joseph N Pedi - Pedi, Jeanne M",
       "contractor_name": "Paul R Arpin",
       "amount_paid": "$516.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525686+00:00",
-    "updated_at": "2026-05-03T20:12:57.525686+00:00"
+    "created_at": "2026-05-14T04:24:56.938478+00:00",
+    "updated_at": "2026-05-14T04:24:56.938479+00:00"
   },
   {
-    "id": "75bcc85c-b908-4ed4-9866-ee694984bf31",
+    "id": "181d5a1a-f830-481d-ae79-7bd95a194320",
     "permit_number": "BP-26-96",
     "applicant_name": "Ted D Dow",
     "address": "51 Whittier Rd",
@@ -966,13 +3585,13 @@
       "owner_name": "Bibhoo Shrestha - Shrestha, Barsha",
       "contractor_name": "Ted D Dow",
       "amount_paid": "$348.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526769+00:00",
-    "updated_at": "2026-05-03T20:12:57.526770+00:00"
+    "created_at": "2026-05-14T04:24:56.939668+00:00",
+    "updated_at": "2026-05-14T04:24:56.939669+00:00"
   },
   {
-    "id": "16329818-0b49-435d-9862-3e775c7e9838",
+    "id": "6e482169-0820-403b-8ffc-6cee92af8d2a",
     "permit_number": "BP-26-104",
     "applicant_name": "Victor Nascimento",
     "address": "30 Park St",
@@ -993,13 +3612,13 @@
       "owner_name": "Sarah Popovics",
       "contractor_name": "Victor Nascimento",
       "amount_paid": "$2,688.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525649+00:00",
-    "updated_at": "2026-05-03T20:12:57.525650+00:00"
+    "created_at": "2026-05-14T04:24:56.938439+00:00",
+    "updated_at": "2026-05-14T04:24:56.938440+00:00"
   },
   {
-    "id": "ee2505f8-cec6-4518-b884-d11e7f3a8df3",
+    "id": "6bd42164-e4b8-4dd5-9b1f-efc6361d8012",
     "permit_number": "BP-26-97",
     "applicant_name": "David J Prell",
     "address": "95 Montrose Ave",
@@ -1020,13 +3639,13 @@
       "owner_name": "Prince, Janet L",
       "contractor_name": "David J Prell",
       "amount_paid": "$72.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526787+00:00",
-    "updated_at": "2026-05-03T20:12:57.526788+00:00"
+    "created_at": "2026-05-14T04:24:56.939688+00:00",
+    "updated_at": "2026-05-14T04:24:56.939689+00:00"
   },
   {
-    "id": "aa5441a5-c57f-474d-8c20-b8df3b37e31f",
+    "id": "647bb503-c12f-4eb3-9158-228ed836b999",
     "permit_number": "BP-26-101",
     "applicant_name": "Robert J Osullivan",
     "address": "11 Atwood Ave",
@@ -1047,13 +3666,13 @@
       "owner_name": "Stacey E Maguire - Maguire, Jennifer D",
       "contractor_name": "Robert J Osullivan",
       "amount_paid": "$312.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525610+00:00",
-    "updated_at": "2026-05-03T20:12:57.525612+00:00"
+    "created_at": "2026-05-14T04:24:56.938394+00:00",
+    "updated_at": "2026-05-14T04:24:56.938396+00:00"
   },
   {
-    "id": "e2d85208-f924-42e1-b4f3-788e794f9939",
+    "id": "40ae9178-39f6-451c-8fbc-40909dab4748",
     "permit_number": "BP-26-98",
     "applicant_name": "Keith A Littlefield",
     "address": "5 Cyrus St",
@@ -1074,13 +3693,13 @@
       "owner_name": "J F F Realty, Trust - F V Longo & F M Murphy Trs",
       "contractor_name": "Keith A Littlefield",
       "amount_paid": "$96.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526804+00:00",
-    "updated_at": "2026-05-03T20:12:57.526805+00:00"
+    "created_at": "2026-05-14T04:24:56.939708+00:00",
+    "updated_at": "2026-05-14T04:24:56.939709+00:00"
   },
   {
-    "id": "52e22978-8e47-4ef2-b2b3-797fb589725f",
+    "id": "0f609051-27ba-4b1e-ad56-8e0c7e353692",
     "permit_number": "BP-26-91",
     "applicant_name": "Power Home Remodeling",
     "address": "17 Sunset Dr",
@@ -1101,13 +3720,13 @@
       "owner_name": "Kathleen S Troisi Tr -17 Sunset Dr Realty Trust",
       "contractor_name": "Power Home Remodeling",
       "amount_paid": "$432.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526678+00:00",
-    "updated_at": "2026-05-03T20:12:57.526679+00:00"
+    "created_at": "2026-05-14T04:24:56.939568+00:00",
+    "updated_at": "2026-05-14T04:24:56.939570+00:00"
   },
   {
-    "id": "c6d579ed-20e8-4ee8-af2e-787cd9a49bab",
+    "id": "6feab814-c2b6-4235-8bfd-36a92ef99655",
     "permit_number": "BP-26-93",
     "applicant_name": "Ivan Pittamiglio Benitez",
     "address": "37 Elm Crest Rd",
@@ -1128,13 +3747,13 @@
       "owner_name": "Rory Jevon",
       "contractor_name": "Ivan Pittamiglio Benitez",
       "amount_paid": "$168.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526713+00:00",
-    "updated_at": "2026-05-03T20:12:57.526714+00:00"
+    "created_at": "2026-05-14T04:24:56.939607+00:00",
+    "updated_at": "2026-05-14T04:24:56.939608+00:00"
   },
   {
-    "id": "3cabec29-0773-410e-8af2-332b851c3b02",
+    "id": "e4f5ac40-d01e-45e0-af0a-13e30826e2ad",
     "permit_number": "BP-26-94",
     "applicant_name": "Daniel A Burke",
     "address": "22 Drury Ln",
@@ -1155,13 +3774,13 @@
       "owner_name": "Jr, Robert J - Roberta R Fitzpatrick",
       "contractor_name": "Daniel A Burke",
       "amount_paid": "$132.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526732+00:00",
-    "updated_at": "2026-05-03T20:12:57.526733+00:00"
+    "created_at": "2026-05-14T04:24:56.939628+00:00",
+    "updated_at": "2026-05-14T04:24:56.939629+00:00"
   },
   {
-    "id": "c96c7f4b-18f7-4a89-84d2-ce3e82e004f5",
+    "id": "f353ab46-68c1-4290-9acc-7d56e28e2017",
     "permit_number": "BP-26-95",
     "applicant_name": "Michael J Nugent",
     "address": "3 Fairmount Terr",
@@ -1182,13 +3801,13 @@
       "owner_name": "Conway, Kevin P - Cynthia A Conway",
       "contractor_name": "Michael J Nugent",
       "amount_paid": "$120.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526750+00:00",
-    "updated_at": "2026-05-03T20:12:57.526751+00:00"
+    "created_at": "2026-05-14T04:24:56.939647+00:00",
+    "updated_at": "2026-05-14T04:24:56.939648+00:00"
   },
   {
-    "id": "480d972f-3a6b-4ebb-aa60-0d40fd2db94b",
+    "id": "bd5da98a-a3ff-4df7-8323-7d35a944b3ad",
     "permit_number": "BP-26-92",
     "applicant_name": "Patrick B Derosa",
     "address": "31 Gould St",
@@ -1209,13 +3828,13 @@
       "owner_name": "Thomas Englehardt, Mackenzie Cushman",
       "contractor_name": "Patrick B Derosa",
       "amount_paid": "$144.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526695+00:00",
-    "updated_at": "2026-05-03T20:12:57.526696+00:00"
+    "created_at": "2026-05-14T04:24:56.939588+00:00",
+    "updated_at": "2026-05-14T04:24:56.939589+00:00"
   },
   {
-    "id": "7fa8d66d-a36c-4b2a-a043-e9dd47bc5170",
+    "id": "f3285a85-6b68-4532-84f1-85029978de0a",
     "permit_number": "BP-26-85",
     "applicant_name": "Ted D Dow",
     "address": "21 Farm St",
@@ -1236,13 +3855,13 @@
       "owner_name": "William R Singleton",
       "contractor_name": "Ted D Dow",
       "amount_paid": "$180.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526571+00:00",
-    "updated_at": "2026-05-03T20:12:57.526571+00:00"
+    "created_at": "2026-05-14T04:24:56.939452+00:00",
+    "updated_at": "2026-05-14T04:24:56.939453+00:00"
   },
   {
-    "id": "143f9534-ae2b-45cb-b42a-e5f27db7d826",
+    "id": "7de31960-8cd8-4393-8bab-4d2d744effda",
     "permit_number": "BP-26-86",
     "applicant_name": "Ted D Dow",
     "address": "45 Chapman Rd",
@@ -1263,13 +3882,13 @@
       "owner_name": "Janice M - Steven J Pini 2012 Fam Trust",
       "contractor_name": "Ted D Dow",
       "amount_paid": "$456.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526591+00:00",
-    "updated_at": "2026-05-03T20:12:57.526592+00:00"
+    "created_at": "2026-05-14T04:24:56.939473+00:00",
+    "updated_at": "2026-05-14T04:24:56.939474+00:00"
   },
   {
-    "id": "3a33086f-9d6a-4475-a126-a198baa7c58d",
+    "id": "85fb4591-8bb5-4533-bae4-3c6cd4a04454",
     "permit_number": "BP-26-87",
     "applicant_name": "Ted D Dow",
     "address": "53 Essex St",
@@ -1290,13 +3909,13 @@
       "owner_name": "Cahill, William T - Nancy G Cahill",
       "contractor_name": "Ted D Dow",
       "amount_paid": "$324.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526609+00:00",
-    "updated_at": "2026-05-03T20:12:57.526610+00:00"
+    "created_at": "2026-05-14T04:24:56.939493+00:00",
+    "updated_at": "2026-05-14T04:24:56.939494+00:00"
   },
   {
-    "id": "10c3613c-b17e-4edb-bf53-45a1e2fd6ea2",
+    "id": "1c087b68-8673-4ecc-b581-89a89321f736",
     "permit_number": "BP-26-88",
     "applicant_name": "Henry B Perez",
     "address": "54 Pine St",
@@ -1317,13 +3936,13 @@
       "owner_name": "Daniel Mccrevan",
       "contractor_name": "Henry B Perez",
       "amount_paid": "$96.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526625+00:00",
-    "updated_at": "2026-05-03T20:12:57.526626+00:00"
+    "created_at": "2026-05-14T04:24:56.939511+00:00",
+    "updated_at": "2026-05-14T04:24:56.939512+00:00"
   },
   {
-    "id": "5fc2420e-e2e5-4898-a2f6-2d8102865ce1",
+    "id": "4a6eef87-4e67-4d60-bb6f-09b2842d2b28",
     "permit_number": "BP-26-89",
     "applicant_name": "Glenn Q Howard",
     "address": "7 Marion Cir",
@@ -1344,13 +3963,13 @@
       "owner_name": "Sonia Grace Sorensen Fuller Tr - Fuller Tr, Craig D",
       "contractor_name": "Glenn Q Howard",
       "amount_paid": "$132.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526641+00:00",
-    "updated_at": "2026-05-03T20:12:57.526642+00:00"
+    "created_at": "2026-05-14T04:24:56.939529+00:00",
+    "updated_at": "2026-05-14T04:24:56.939529+00:00"
   },
   {
-    "id": "a13cce18-df00-42ac-90a8-cd4e70ab3934",
+    "id": "d3f91617-4df2-4e8e-9d3d-be806495b727",
     "permit_number": "BP-26-78",
     "applicant_name": "Robert Leblanc",
     "address": "7 King St",
@@ -1371,13 +3990,13 @@
       "owner_name": "Barbara Ann Cuccovia",
       "contractor_name": "Robert Leblanc",
       "amount_paid": "$84.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526451+00:00",
-    "updated_at": "2026-05-03T20:12:57.526452+00:00"
+    "created_at": "2026-05-14T04:24:56.939322+00:00",
+    "updated_at": "2026-05-14T04:24:56.939323+00:00"
   },
   {
-    "id": "b333544a-f7b8-4d4f-9b0b-f2f403d8680f",
+    "id": "37964a37-6c44-4868-b4c9-b4423d8b3854",
     "permit_number": "BP-26-83",
     "applicant_name": "Salomon",
     "address": "24 Whittier Rd",
@@ -1398,13 +4017,13 @@
       "owner_name": "Andrew Betts - Betts, Amanda",
       "contractor_name": "Salomon",
       "amount_paid": "$1,224.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526537+00:00",
-    "updated_at": "2026-05-03T20:12:57.526538+00:00"
+    "created_at": "2026-05-14T04:24:56.939415+00:00",
+    "updated_at": "2026-05-14T04:24:56.939416+00:00"
   },
   {
-    "id": "12b57de7-8322-4d15-81a0-cef0eee9bf40",
+    "id": "4d6df87f-5fa8-4213-ab6f-6e5131ef204f",
     "permit_number": "BP-26-84",
     "applicant_name": "Darren J Ryan",
     "address": "148 Parker Rd",
@@ -1425,13 +4044,13 @@
       "owner_name": "Marcos S Arado - Arado, Solimar S S",
       "contractor_name": "Darren J Ryan",
       "amount_paid": "$1,440.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526553+00:00",
-    "updated_at": "2026-05-03T20:12:57.526554+00:00"
+    "created_at": "2026-05-14T04:24:56.939433+00:00",
+    "updated_at": "2026-05-14T04:24:56.939434+00:00"
   },
   {
-    "id": "9692b5d5-b3d5-4dc9-b735-29c88426089a",
+    "id": "ddfd582d-a859-4672-a9c1-e5ba98ca4a76",
     "permit_number": "BP-26-79",
     "applicant_name": null,
     "address": "10 Walton St, Basement",
@@ -1452,13 +4071,13 @@
       "owner_name": null,
       "contractor_name": null,
       "amount_paid": "$564.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526466+00:00",
-    "updated_at": "2026-05-03T20:12:57.526467+00:00"
+    "created_at": "2026-05-14T04:24:56.939339+00:00",
+    "updated_at": "2026-05-14T04:24:56.939340+00:00"
   },
   {
-    "id": "4215afa5-964d-4447-9623-88d29d3c8180",
+    "id": "ab0c7bf2-29cd-4ce2-9c37-3c1215e7d366",
     "permit_number": "BP-26-80",
     "applicant_name": "Christopher R Meyer",
     "address": "119 Vernon St",
@@ -1479,13 +4098,13 @@
       "owner_name": "Robert C Sanderson - Bradshaw, Ryanne N",
       "contractor_name": "Christopher R Meyer",
       "amount_paid": "$2,580.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526483+00:00",
-    "updated_at": "2026-05-03T20:12:57.526484+00:00"
+    "created_at": "2026-05-14T04:24:56.939357+00:00",
+    "updated_at": "2026-05-14T04:24:56.939358+00:00"
   },
   {
-    "id": "837890be-2f3a-4548-8d4a-768d4708e456",
+    "id": "e8f4d0f1-9af9-4959-98a4-480d6bd35faa",
     "permit_number": "BP-26-81",
     "applicant_name": "Luccas B Santos",
     "address": "198 Salem St",
@@ -1506,13 +4125,13 @@
       "owner_name": "Edgard Meneguello",
       "contractor_name": "Luccas B Santos",
       "amount_paid": "$756.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526500+00:00",
-    "updated_at": "2026-05-03T20:12:57.526501+00:00"
+    "created_at": "2026-05-14T04:24:56.939376+00:00",
+    "updated_at": "2026-05-14T04:24:56.939377+00:00"
   },
   {
-    "id": "284b0f38-558b-4bc4-aa4d-63ef201176c1",
+    "id": "c2a5140f-2c16-4c53-a79c-e752002a677e",
     "permit_number": "BP-26-82",
     "applicant_name": "Christopher Zorzy",
     "address": "22 Mt Pleasant Ave",
@@ -1533,13 +4152,13 @@
       "owner_name": "Boncoddo, Nunzio - Nunzia Boncoddo",
       "contractor_name": "Christopher Zorzy",
       "amount_paid": "$108.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526518+00:00",
-    "updated_at": "2026-05-03T20:12:57.526519+00:00"
+    "created_at": "2026-05-14T04:24:56.939397+00:00",
+    "updated_at": "2026-05-14T04:24:56.939398+00:00"
   },
   {
-    "id": "b288aff3-8f8e-45b1-982e-4c92b862769b",
+    "id": "ac8a6cfe-982e-437b-a9f6-32e7b0789a74",
     "permit_number": "BP-26-72",
     "applicant_name": "David B Vanderbilt",
     "address": "6 Walter Ave",
@@ -1560,13 +4179,13 @@
       "owner_name": "Gary Walczewski - Walczewski, Nicole",
       "contractor_name": "David B Vanderbilt",
       "amount_paid": "$960.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526349+00:00",
-    "updated_at": "2026-05-03T20:12:57.526350+00:00"
+    "created_at": "2026-05-14T04:24:56.939208+00:00",
+    "updated_at": "2026-05-14T04:24:56.939209+00:00"
   },
   {
-    "id": "25beb295-16b2-4df3-b8c5-2d6b8d162d73",
+    "id": "b3f5ac6b-e5cd-4853-a855-eba927f778b8",
     "permit_number": "BP-26-73",
     "applicant_name": "Matthew T Mayo",
     "address": "30 Walton St",
@@ -1587,13 +4206,13 @@
       "owner_name": "Stephen Lamonica - Palm, Erica",
       "contractor_name": "Matthew T Mayo",
       "amount_paid": "$144.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526366+00:00",
-    "updated_at": "2026-05-03T20:12:57.526367+00:00"
+    "created_at": "2026-05-14T04:24:56.939229+00:00",
+    "updated_at": "2026-05-14T04:24:56.939230+00:00"
   },
   {
-    "id": "b3c1d4d9-192b-4dc5-963b-03c5d2ab87f3",
+    "id": "3d4cd388-a31d-4556-92bb-57f6f6563a37",
     "permit_number": "BP-26-74",
     "applicant_name": "Freddy Campoverde",
     "address": "42 Hopkins St",
@@ -1614,13 +4233,13 @@
       "owner_name": "Michiya Nishino - Nishino, Ha T",
       "contractor_name": "Freddy Campoverde",
       "amount_paid": "$432.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526384+00:00",
-    "updated_at": "2026-05-03T20:12:57.526385+00:00"
+    "created_at": "2026-05-14T04:24:56.939249+00:00",
+    "updated_at": "2026-05-14T04:24:56.939250+00:00"
   },
   {
-    "id": "606a5f2b-accb-4a9a-aa07-7a2ecff5d4e7",
+    "id": "f8c650e4-21b5-4d12-bfd1-1f232e164d2f",
     "permit_number": "BP-26-75",
     "applicant_name": "Robert Egan",
     "address": "35 Eustis Ave",
@@ -1641,13 +4260,13 @@
       "owner_name": "Basil J & Laureen Poulakis Trs",
       "contractor_name": "Robert Egan",
       "amount_paid": "$672.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526402+00:00",
-    "updated_at": "2026-05-03T20:12:57.526403+00:00"
+    "created_at": "2026-05-14T04:24:56.939267+00:00",
+    "updated_at": "2026-05-14T04:24:56.939268+00:00"
   },
   {
-    "id": "9497adaf-a63a-4ea2-ba44-755315780819",
+    "id": "19afa00d-e827-46e3-942b-922086e933e4",
     "permit_number": "BP-26-76",
     "applicant_name": "Robert Jellison",
     "address": "15 Turnbull Ave, Unit 15-1",
@@ -1668,13 +4287,13 @@
       "owner_name": "Lindsay Vose",
       "contractor_name": "Robert Jellison",
       "amount_paid": "$1,120.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526418+00:00",
-    "updated_at": "2026-05-03T20:12:57.526419+00:00"
+    "created_at": "2026-05-14T04:24:56.939285+00:00",
+    "updated_at": "2026-05-14T04:24:56.939286+00:00"
   },
   {
-    "id": "c1c0cae8-e629-4466-b81f-49db9ff94e67",
+    "id": "3fa48802-ad6a-4e21-b73e-569c410ee6c3",
     "permit_number": "BP-26-77",
     "applicant_name": "Robert J Mcguire, Jr",
     "address": "27 Hillcrest Rd",
@@ -1695,13 +4314,13 @@
       "owner_name": "John A & Kathleen D Macmillan",
       "contractor_name": "Robert J Mcguire, Jr",
       "amount_paid": "$1,344.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526433+00:00",
-    "updated_at": "2026-05-03T20:12:57.526434+00:00"
+    "created_at": "2026-05-14T04:24:56.939302+00:00",
+    "updated_at": "2026-05-14T04:24:56.939303+00:00"
   },
   {
-    "id": "411fdd1e-f3ab-4f6e-a9d2-2d6070118db3",
+    "id": "03de9d28-1e7f-40a5-9876-c257790d2939",
     "permit_number": "BP-25-421",
     "applicant_name": "Kenneth P Duval, Sr",
     "address": "182 Prospect St",
@@ -1722,13 +4341,13 @@
       "owner_name": "Stephen A Ditullio - Ditullio, Nancy A",
       "contractor_name": "Kenneth P Duval, Sr",
       "amount_paid": "$30.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.525554+00:00",
-    "updated_at": "2026-05-03T20:12:57.525562+00:00"
+    "created_at": "2026-05-14T04:24:56.938328+00:00",
+    "updated_at": "2026-05-14T04:24:56.938339+00:00"
   },
   {
-    "id": "2ec4fd12-665e-4b82-9f40-b375a0afdfa8",
+    "id": "e1400d5e-0d35-49b0-81f2-0d54e3476988",
     "permit_number": "BP-26-69",
     "applicant_name": "Stephen M Ventola",
     "address": "5 Bentley St",
@@ -1749,13 +4368,13 @@
       "owner_name": "Guohui Pan - Wang, Yingjiao",
       "contractor_name": "Stephen M Ventola",
       "amount_paid": "$252.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526298+00:00",
-    "updated_at": "2026-05-03T20:12:57.526299+00:00"
+    "created_at": "2026-05-14T04:24:56.939152+00:00",
+    "updated_at": "2026-05-14T04:24:56.939153+00:00"
   },
   {
-    "id": "96955cf2-9620-41a5-b10b-b2b8ae774c98",
+    "id": "d3f3f317-3b86-4273-be38-e1bbc4a6885f",
     "permit_number": "BP-26-71",
     "applicant_name": "81 Spring Street Wakefield Llc",
     "address": "81 Spring St",
@@ -1776,13 +4395,13 @@
       "owner_name": "81 Spring Street Wakefield Llc",
       "contractor_name": null,
       "amount_paid": "$60.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526330+00:00",
-    "updated_at": "2026-05-03T20:12:57.526331+00:00"
+    "created_at": "2026-05-14T04:24:56.939187+00:00",
+    "updated_at": "2026-05-14T04:24:56.939188+00:00"
   },
   {
-    "id": "1aab1757-50b3-47b5-b991-ccf3aa6c77cc",
+    "id": "f6e750ff-cc55-4981-b23c-15fa63516318",
     "permit_number": "BP-26-70",
     "applicant_name": "Sergio Silva",
     "address": "21 West Water St",
@@ -1803,13 +4422,13 @@
       "owner_name": "Kelly Lawton - Lawton, Jonathan",
       "contractor_name": "Sergio Silva",
       "amount_paid": "$288.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526314+00:00",
-    "updated_at": "2026-05-03T20:12:57.526314+00:00"
+    "created_at": "2026-05-14T04:24:56.939169+00:00",
+    "updated_at": "2026-05-14T04:24:56.939170+00:00"
   },
   {
-    "id": "834d5bfb-2900-45aa-82b5-6a775f6acbe8",
+    "id": "af18b831-814e-44b3-9542-0eb7bd95cde4",
     "permit_number": "BP-26-66",
     "applicant_name": "Peter A Leblanc",
     "address": "132 New Salem St",
@@ -1830,13 +4449,13 @@
       "owner_name": "Timothy Cochran - Ramadan, Nadire",
       "contractor_name": "Peter A Leblanc",
       "amount_paid": "$72.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526243+00:00",
-    "updated_at": "2026-05-03T20:12:57.526244+00:00"
+    "created_at": "2026-05-14T04:24:56.939092+00:00",
+    "updated_at": "2026-05-14T04:24:56.939093+00:00"
   },
   {
-    "id": "a4d78daf-1ed7-49e8-99a3-9e81043d0421",
+    "id": "6add1285-33fd-4edf-aa04-c22d54285e76",
     "permit_number": "BP-26-67",
     "applicant_name": "Alison H Loiselle",
     "address": "42 Fairmount Ave",
@@ -1857,13 +4476,13 @@
       "owner_name": "Christopher W Olsen - Olsen, Colleen P",
       "contractor_name": "Alison H Loiselle",
       "amount_paid": "$456.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526261+00:00",
-    "updated_at": "2026-05-03T20:12:57.526262+00:00"
+    "created_at": "2026-05-14T04:24:56.939112+00:00",
+    "updated_at": "2026-05-14T04:24:56.939113+00:00"
   },
   {
-    "id": "f303582d-6029-413c-8ef7-1c3aa509b8a8",
+    "id": "107a4809-f384-4296-9862-c001aea43b85",
     "permit_number": "BP-26-68",
     "applicant_name": "Stephen M Ventola",
     "address": "12 Jordan Ave",
@@ -1884,13 +4503,13 @@
       "owner_name": "Patrick W Newcomb - Newcomb, Jessica S",
       "contractor_name": "Stephen M Ventola",
       "amount_paid": "$708.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526279+00:00",
-    "updated_at": "2026-05-03T20:12:57.526279+00:00"
+    "created_at": "2026-05-14T04:24:56.939131+00:00",
+    "updated_at": "2026-05-14T04:24:56.939132+00:00"
   },
   {
-    "id": "a3419fc9-e116-4409-a4e7-4c2f7ef56e6c",
+    "id": "5d429898-20ce-4a61-b70e-64c3a977675c",
     "permit_number": "BP-26-65",
     "applicant_name": "Nicholas P Freni",
     "address": "20 Butternut Rd",
@@ -1911,13 +4530,13 @@
       "owner_name": "Matthew H Mcphail Tr - Mcphail Tr, Ellen E",
       "contractor_name": "Nicholas P Freni",
       "amount_paid": "$324.00",
-      "month_file": "wak-2575-March-2026.pdf"
+      "month_file": "wakefield-2575-March-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.526223+00:00",
-    "updated_at": "2026-05-03T20:12:57.526224+00:00"
+    "created_at": "2026-05-14T04:24:56.939071+00:00",
+    "updated_at": "2026-05-14T04:24:56.939072+00:00"
   },
   {
-    "id": "337d7449-8d74-4886-b979-be2f8748da4d",
+    "id": "f8657e0e-d304-49e3-aeab-e0c47864900f",
     "permit_number": "BP-25-832",
     "applicant_name": "Thomas E Taylor",
     "address": "71 Eunice Cir",
@@ -1938,13 +4557,13 @@
       "owner_name": "Paul Cacciola",
       "contractor_name": "Thomas E Taylor",
       "amount_paid": "$30.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067257+00:00",
-    "updated_at": "2026-05-03T20:12:57.067258+00:00"
+    "created_at": "2026-05-14T04:24:56.444786+00:00",
+    "updated_at": "2026-05-14T04:24:56.444797+00:00"
   },
   {
-    "id": "2310af97-c1ae-481f-b646-1bcd47db8cf5",
+    "id": "7ce05b46-a078-4cd3-949d-5e06d19d9ec1",
     "permit_number": "BP-26-62",
     "applicant_name": "Jennifer S Bylo",
     "address": "25 Stark Ave",
@@ -1965,13 +4584,13 @@
       "owner_name": "Jennings, Craig E & Nicole B",
       "contractor_name": "Jennifer S Bylo",
       "amount_paid": "$216.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067832+00:00",
-    "updated_at": "2026-05-03T20:12:57.067833+00:00"
+    "created_at": "2026-05-14T04:24:56.445276+00:00",
+    "updated_at": "2026-05-14T04:24:56.445277+00:00"
   },
   {
-    "id": "6f389632-ed55-4c4d-96c7-db8113234e2f",
+    "id": "2b1745f7-8c2c-44da-80e6-f3b2af2a35c1",
     "permit_number": "BP-26-63",
     "applicant_name": "Paul Covino Jr",
     "address": "15 Howard St",
@@ -1992,13 +4611,13 @@
       "owner_name": "Paul Covino Jr",
       "contractor_name": null,
       "amount_paid": "$300.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067848+00:00",
-    "updated_at": "2026-05-03T20:12:57.067849+00:00"
+    "created_at": "2026-05-14T04:24:56.445290+00:00",
+    "updated_at": "2026-05-14T04:24:56.445291+00:00"
   },
   {
-    "id": "c02db789-bc97-4678-abc2-d225b5854846",
+    "id": "21849b86-7320-4a7a-af99-493a8a949c54",
     "permit_number": "BP-26-64",
     "applicant_name": "Mark F Sullivan",
     "address": "12 Ledgewood Rd",
@@ -2019,13 +4638,13 @@
       "owner_name": "S. D Sheridan - Gao-Sheridan, Hongkun S.",
       "contractor_name": "Mark F Sullivan",
       "amount_paid": "$168.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067867+00:00",
-    "updated_at": "2026-05-03T20:12:57.067868+00:00"
+    "created_at": "2026-05-14T04:24:56.445309+00:00",
+    "updated_at": "2026-05-14T04:24:56.445310+00:00"
   },
   {
-    "id": "353517c2-6e42-40b4-bb7a-42adc2d558b0",
+    "id": "c0062e3f-9f50-475a-8e90-92ce82a138e2",
     "permit_number": "BP-26-60",
     "applicant_name": "Paul A Marrone",
     "address": "119 New Salem St",
@@ -2046,13 +4665,13 @@
       "owner_name": "L Lessard Lvg Trs",
       "contractor_name": "Paul A Marrone",
       "amount_paid": "$324.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067802+00:00",
-    "updated_at": "2026-05-03T20:12:57.067803+00:00"
+    "created_at": "2026-05-14T04:24:56.445242+00:00",
+    "updated_at": "2026-05-14T04:24:56.445243+00:00"
   },
   {
-    "id": "7b6e3a4e-f1fe-44b9-ae4c-a9b29dfce864",
+    "id": "3f90ff22-15d4-4127-86b5-fbb00553d7a9",
     "permit_number": "BP-26-61",
     "applicant_name": "Patrick Charlton",
     "address": "13 Highland St",
@@ -2073,13 +4692,13 @@
       "owner_name": "Patrick Charlton",
       "contractor_name": null,
       "amount_paid": "$900.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067816+00:00",
-    "updated_at": "2026-05-03T20:12:57.067817+00:00"
+    "created_at": "2026-05-14T04:24:56.445260+00:00",
+    "updated_at": "2026-05-14T04:24:56.445261+00:00"
   },
   {
-    "id": "17a875c9-23de-4537-90b1-e6d7b6b8cf0d",
+    "id": "834aa0f7-985c-4301-9be2-c9b3dc9e4a78",
     "permit_number": "BP-26-52",
     "applicant_name": "John J Ferguson",
     "address": "304 Lowell St",
@@ -2100,13 +4719,13 @@
       "owner_name": "Kevin Spindler",
       "contractor_name": "John J Ferguson",
       "amount_paid": "$240.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067690+00:00",
-    "updated_at": "2026-05-03T20:12:57.067691+00:00"
+    "created_at": "2026-05-14T04:24:56.445129+00:00",
+    "updated_at": "2026-05-14T04:24:56.445130+00:00"
   },
   {
-    "id": "8a10b337-bc1f-421f-968e-4a96d37e56b9",
+    "id": "28802e95-da2c-4cbf-aa1c-3be5074042b3",
     "permit_number": "BP-26-55",
     "applicant_name": "John R Bingham",
     "address": "336 Main St",
@@ -2127,13 +4746,13 @@
       "owner_name": "Adam Grimm",
       "contractor_name": "John R Bingham",
       "amount_paid": "$216.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067740+00:00",
-    "updated_at": "2026-05-03T20:12:57.067741+00:00"
+    "created_at": "2026-05-14T04:24:56.445179+00:00",
+    "updated_at": "2026-05-14T04:24:56.445180+00:00"
   },
   {
-    "id": "89bf1278-09a9-4e04-8a40-1b7d3a7949b8",
+    "id": "410f842a-72ce-4286-99cb-d90835c7ebc2",
     "permit_number": "BP-26-56",
     "applicant_name": "Brian J Chute",
     "address": "5 Dexters Ln",
@@ -2154,13 +4773,13 @@
       "owner_name": "Ryan Mcquilkin - Mcquilkin, Sara",
       "contractor_name": "Brian J Chute",
       "amount_paid": "$1,044.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067755+00:00",
-    "updated_at": "2026-05-03T20:12:57.067756+00:00"
+    "created_at": "2026-05-14T04:24:56.445195+00:00",
+    "updated_at": "2026-05-14T04:24:56.445196+00:00"
   },
   {
-    "id": "438f2277-3685-40f9-acb0-e0c439e51485",
+    "id": "f3693845-caf1-4e4a-822c-37096bc25b3a",
     "permit_number": "BP-26-58",
     "applicant_name": "Miro Realty Trust",
     "address": "239 North Ave",
@@ -2181,13 +4800,13 @@
       "owner_name": "Miro Realty Trust",
       "contractor_name": null,
       "amount_paid": "$100.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067771+00:00",
-    "updated_at": "2026-05-03T20:12:57.067772+00:00"
+    "created_at": "2026-05-14T04:24:56.445211+00:00",
+    "updated_at": "2026-05-14T04:24:56.445212+00:00"
   },
   {
-    "id": "a2495774-27d1-469d-8aaa-66c0234d0b14",
+    "id": "466b4f8b-c109-4f2f-a6fc-dc2f6cfbc8fa",
     "permit_number": "BP-26-59",
     "applicant_name": "Miro Realty Trust",
     "address": "239 North Ave",
@@ -2208,13 +4827,13 @@
       "owner_name": "Miro Realty Trust",
       "contractor_name": null,
       "amount_paid": "$100.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067786+00:00",
-    "updated_at": "2026-05-03T20:12:57.067787+00:00"
+    "created_at": "2026-05-14T04:24:56.445226+00:00",
+    "updated_at": "2026-05-14T04:24:56.445227+00:00"
   },
   {
-    "id": "36237623-4f8a-4788-ba7b-63bebf5f6ee1",
+    "id": "e492951e-df65-4ed7-a257-0d05ac75d8b6",
     "permit_number": "BP-26-53",
     "applicant_name": "Daniel James Brosseau",
     "address": "306 Salem St",
@@ -2235,13 +4854,13 @@
       "owner_name": "Mcnamara, John W - Patrice O",
       "contractor_name": "Daniel James Brosseau",
       "amount_paid": "$852.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067707+00:00",
-    "updated_at": "2026-05-03T20:12:57.067708+00:00"
+    "created_at": "2026-05-14T04:24:56.445146+00:00",
+    "updated_at": "2026-05-14T04:24:56.445147+00:00"
   },
   {
-    "id": "af573a13-bc63-455b-a186-503d291a66f1",
+    "id": "32e381a5-f8b2-438c-9bdf-557e1829489b",
     "permit_number": "BP-26-54",
     "applicant_name": "Andris J Kaza",
     "address": "22 Wayland Rd",
@@ -2262,13 +4881,13 @@
       "owner_name": "Larlis Kaza",
       "contractor_name": "Andris J Kaza",
       "amount_paid": "$120.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067722+00:00",
-    "updated_at": "2026-05-03T20:12:57.067723+00:00"
+    "created_at": "2026-05-14T04:24:56.445162+00:00",
+    "updated_at": "2026-05-14T04:24:56.445162+00:00"
   },
   {
-    "id": "eb7702cd-a00b-4e7a-ba80-2a2e99484dad",
+    "id": "ac572eb1-f7be-4759-8ef5-6da4eba28d51",
     "permit_number": "BP-26-47",
     "applicant_name": "Caio Marques Torres",
     "address": "12 Quannapowitt Ave",
@@ -2289,13 +4908,13 @@
       "owner_name": "Diane M Beaver",
       "contractor_name": "Caio Marques Torres",
       "amount_paid": "$84.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067599+00:00",
-    "updated_at": "2026-05-03T20:12:57.067600+00:00"
+    "created_at": "2026-05-14T04:24:56.445031+00:00",
+    "updated_at": "2026-05-14T04:24:56.445032+00:00"
   },
   {
-    "id": "24ba1b4c-848f-498f-b922-96c9dc65ea1d",
+    "id": "266c6cc5-48d7-4e96-ae32-db3ad960f08e",
     "permit_number": "BP-26-48",
     "applicant_name": "Caio Marques Torres",
     "address": "22 Mt Pleasant Ave",
@@ -2316,13 +4935,13 @@
       "owner_name": "Boncoddo, Nunzio",
       "contractor_name": "Caio Marques Torres",
       "amount_paid": "$120.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067619+00:00",
-    "updated_at": "2026-05-03T20:12:57.067620+00:00"
+    "created_at": "2026-05-14T04:24:56.445052+00:00",
+    "updated_at": "2026-05-14T04:24:56.445053+00:00"
   },
   {
-    "id": "9b4ec7eb-52c4-4159-9f74-d4ec30e85a55",
+    "id": "d40ce993-36ee-44e4-ae43-bf3f21c43a0d",
     "permit_number": "BP-26-50",
     "applicant_name": "Peter A Leblanc",
     "address": "14 Emerald St",
@@ -2343,13 +4962,13 @@
       "owner_name": "Emerald Living Trust",
       "contractor_name": "Peter A Leblanc",
       "amount_paid": "$50.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067654+00:00",
-    "updated_at": "2026-05-03T20:12:57.067655+00:00"
+    "created_at": "2026-05-14T04:24:56.445090+00:00",
+    "updated_at": "2026-05-14T04:24:56.445091+00:00"
   },
   {
-    "id": "91900a85-e5c1-4763-af0a-ca5992988fbe",
+    "id": "6379ea2c-4316-4f6f-9056-697bf3e57aa4",
     "permit_number": "BP-26-51",
     "applicant_name": "Jennifer S Bylo",
     "address": "3 Highland Ave",
@@ -2370,13 +4989,40 @@
       "owner_name": "Andrew L Bray - Bray, Doreen",
       "contractor_name": "Jennifer S Bylo",
       "amount_paid": "$372.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067672+00:00",
-    "updated_at": "2026-05-03T20:12:57.067673+00:00"
+    "created_at": "2026-05-14T04:24:56.445111+00:00",
+    "updated_at": "2026-05-14T04:24:56.445111+00:00"
   },
   {
-    "id": "964dd88b-88a2-4cc0-ae91-2079f9c28900",
+    "id": "0813d4e4-056f-44c6-a0b1-865561ca7ecc",
+    "permit_number": "BP-26-40",
+    "applicant_name": "Matthew J Bailey",
+    "address": "241 Pleasant St",
+    "city": "Wakefield",
+    "state": "MA",
+    "phone": null,
+    "email": null,
+    "work_type": "building_permit",
+    "permit_date": "2026-02-18",
+    "application_date": null,
+    "estimated_value": null,
+    "status_source": "Permit Issued",
+    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
+    "description": "RE-ISSUE PERMIT FEE",
+    "raw_data": {
+      "source": "wakefield-civicplus-pdf",
+      "record_type": "Building Permit",
+      "owner_name": "Quang V Nguyen - Ho, Thu A",
+      "contractor_name": "Matthew J Bailey",
+      "amount_paid": "$30.00",
+      "month_file": "wakefield-2535-February-2026.pdf"
+    },
+    "created_at": "2026-05-14T04:24:56.444918+00:00",
+    "updated_at": "2026-05-14T04:24:56.444919+00:00"
+  },
+  {
+    "id": "0753298e-d4fc-4157-a013-4a864eb586e5",
     "permit_number": "BP-26-49",
     "applicant_name": "Frank V Federico",
     "address": "21 Rosemary Ave",
@@ -2397,13 +5043,13 @@
       "owner_name": "Charles F Jordan - Jordan, Carolyn J",
       "contractor_name": "Frank V Federico",
       "amount_paid": "$2,196.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067635+00:00",
-    "updated_at": "2026-05-03T20:12:57.067636+00:00"
+    "created_at": "2026-05-14T04:24:56.445071+00:00",
+    "updated_at": "2026-05-14T04:24:56.445072+00:00"
   },
   {
-    "id": "137555ef-a22c-44ac-85c8-da0ebd4a708e",
+    "id": "017115dd-7faf-49af-b842-7a487e7695e6",
     "permit_number": "BP-26-43",
     "applicant_name": "Manuel D Vasconcelos",
     "address": "15 Walnut St",
@@ -2424,13 +5070,13 @@
       "owner_name": "Ian Buttermore - Dwyer-Buttermore, K.",
       "contractor_name": "Manuel D Vasconcelos",
       "amount_paid": "$108.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067527+00:00",
-    "updated_at": "2026-05-03T20:12:57.067528+00:00"
+    "created_at": "2026-05-14T04:24:56.444957+00:00",
+    "updated_at": "2026-05-14T04:24:56.444958+00:00"
   },
   {
-    "id": "4660a8f3-61e3-4ba9-966e-ae61831eef3c",
+    "id": "d38a11b2-91cd-4472-a0bc-e04c03b8f1f9",
     "permit_number": "BP-26-44",
     "applicant_name": "Ranjan Dahal",
     "address": "1 Morgan Ave",
@@ -2451,13 +5097,13 @@
       "owner_name": "Ranjan Dahal",
       "contractor_name": null,
       "amount_paid": "$1,200.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067543+00:00",
-    "updated_at": "2026-05-03T20:12:57.067544+00:00"
+    "created_at": "2026-05-14T04:24:56.444973+00:00",
+    "updated_at": "2026-05-14T04:24:56.444974+00:00"
   },
   {
-    "id": "3cccd6c1-c875-40ce-8297-41f7971da2eb",
+    "id": "bf4d21a8-4493-47cb-9729-bdbc378ad388",
     "permit_number": "BP-26-45",
     "applicant_name": "Pinecrest Realty Ventures Llc",
     "address": "71 Converse St",
@@ -2478,13 +5124,13 @@
       "owner_name": "Pinecrest Realty Ventures Llc",
       "contractor_name": "Pinecrest Realty Ventures Llc",
       "amount_paid": "$3,324.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067564+00:00",
-    "updated_at": "2026-05-03T20:12:57.067565+00:00"
+    "created_at": "2026-05-14T04:24:56.444992+00:00",
+    "updated_at": "2026-05-14T04:24:56.444993+00:00"
   },
   {
-    "id": "e0bd1a99-4651-49c3-9e2a-edefa11289b4",
+    "id": "f14ee54c-06cb-4c7d-9ed9-9ee832409f24",
     "permit_number": "BP-26-46",
     "applicant_name": "Francisco Romero-Ibarra",
     "address": "57 Myrtle Ave",
@@ -2505,13 +5151,13 @@
       "owner_name": "Francisco Romero Ibarra",
       "contractor_name": "Francisco Romero-Ibarra",
       "amount_paid": "$720.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067581+00:00",
-    "updated_at": "2026-05-03T20:12:57.067582+00:00"
+    "created_at": "2026-05-14T04:24:56.445011+00:00",
+    "updated_at": "2026-05-14T04:24:56.445012+00:00"
   },
   {
-    "id": "7525b7d8-bb81-4b23-bddf-3a3b6c6182c2",
+    "id": "d5c0a01e-3292-4292-bc26-421a221bc506",
     "permit_number": "BP-26-39",
     "applicant_name": "Power Home Remodeling Grp",
     "address": "60 Elm St",
@@ -2532,360 +5178,9 @@
       "owner_name": "Jerald H Bluhm - Sedlacko, Irene R",
       "contractor_name": "Power Home Remodeling Grp",
       "amount_paid": "$192.00",
-      "month_file": "wak-2535-February-2026.pdf"
+      "month_file": "wakefield-2535-February-2026.pdf"
     },
-    "created_at": "2026-05-03T20:12:57.067434+00:00",
-    "updated_at": "2026-05-03T20:12:57.067435+00:00"
-  },
-  {
-    "id": "457ee496-44eb-4b1b-8339-6993247c79a8",
-    "permit_number": "BP-26-42",
-    "applicant_name": "Michael J Nugent",
-    "address": "34 Rosemary Ave",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "renovation",
-    "permit_date": "2026-02-12",
-    "application_date": null,
-    "estimated_value": 13000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "STRIP & RE-ROOF",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
-      "owner_name": "Joseph V Madden - Madden, Kendra M",
-      "contractor_name": "Michael J Nugent",
-      "amount_paid": "$156.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067506+00:00",
-    "updated_at": "2026-05-03T20:12:57.067507+00:00"
-  },
-  {
-    "id": "76f960f4-1578-4b90-b9f5-a84a823a2821",
-    "permit_number": "BP-26-38",
-    "applicant_name": "Dany Solis",
-    "address": "483 Water St",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "kitchen_renovation",
-    "permit_date": "2026-02-11",
-    "application_date": null,
-    "estimated_value": 16000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "REPLACE KITCHEN CABINETS REBUILD 2 WALLS",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit",
-      "owner_name": "R Inc Brookline Infant-Toddler Cente",
-      "contractor_name": "Dany Solis",
-      "amount_paid": "$192.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067413+00:00",
-    "updated_at": "2026-05-03T20:12:57.067414+00:00"
-  },
-  {
-    "id": "2ffb508a-149b-4c84-9208-e5f3e3dba2b6",
-    "permit_number": "BP-26-40",
-    "applicant_name": "Matthew J Bailey",
-    "address": "241 Pleasant St",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "renovation",
-    "permit_date": "2026-02-11",
-    "application_date": null,
-    "estimated_value": 30000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "BASEMENT RENOVATION MIN 6'-8' CEILING HEIGHT",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit",
-      "owner_name": "Quang V Nguyen - Ho, Thu A",
-      "contractor_name": "Matthew J Bailey",
-      "amount_paid": "$360.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067452+00:00",
-    "updated_at": "2026-05-03T20:12:57.067453+00:00"
-  },
-  {
-    "id": "73e0dd2f-9f66-44f3-8e34-0f53441dc472",
-    "permit_number": "BP-26-41",
-    "applicant_name": "Ryan Denis Kelly",
-    "address": "16 Lafayette St",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "building_permit",
-    "permit_date": "2026-02-11",
-    "application_date": null,
-    "estimated_value": 209000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "CONVERT 1 FAMILY TO A TWO FAMILY",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit",
-      "owner_name": "Robert Fields",
-      "contractor_name": "Ryan Denis Kelly",
-      "amount_paid": "$2,508.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067487+00:00",
-    "updated_at": "2026-05-03T20:12:57.067488+00:00"
-  },
-  {
-    "id": "cd7f379c-4adf-45d0-9240-4e33d47ec37a",
-    "permit_number": "BP-26-36",
-    "applicant_name": "Robert Poczobut",
-    "address": "10 Howard St",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "renovation",
-    "permit_date": "2026-02-09",
-    "application_date": null,
-    "estimated_value": 5000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "REPLACE 5 WINDOWS, NON STRUCTURAL",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
-      "owner_name": "Daniel M Joseph - Joseph (Te), Emily G",
-      "contractor_name": "Robert Poczobut",
-      "amount_paid": "$60.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067375+00:00",
-    "updated_at": "2026-05-03T20:12:57.067376+00:00"
-  },
-  {
-    "id": "bbef1c72-4516-41ed-ba93-bfb9f6ae2aee",
-    "permit_number": "BP-26-37",
-    "applicant_name": "Lawrence R. Gamst",
-    "address": "53 Tamworth Hill Ave",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "building_permit",
-    "permit_date": "2026-02-09",
-    "application_date": null,
-    "estimated_value": 3000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "REMOVE LOAD BEARING WALL",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit",
-      "owner_name": "B. A. Le Day - Gagnon, E.C D, Ronellen A",
-      "contractor_name": "Lawrence R. Gamst",
-      "amount_paid": "$50.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067394+00:00",
-    "updated_at": "2026-05-03T20:12:57.067395+00:00"
-  },
-  {
-    "id": "de39563d-0788-4463-86a8-8fbca6de3233",
-    "permit_number": "BP-26-35",
-    "applicant_name": "Scott A Carpenter",
-    "address": "24 Pine Hill Cir",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "renovation",
-    "permit_date": "2026-02-06",
-    "application_date": null,
-    "estimated_value": 17000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "REPLACE MULTIPLE WINDOWS AND ENTRY DOOR",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
-      "owner_name": "Eric Jahn - Jahn-Sans, Carolyn Anne",
-      "contractor_name": "Scott A Carpenter",
-      "amount_paid": "$204.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067355+00:00",
-    "updated_at": "2026-05-03T20:12:57.067356+00:00"
-  },
-  {
-    "id": "7a9a5cfc-112a-42d3-b9ae-c61c50ce3b9e",
-    "permit_number": "BP-26-34",
-    "applicant_name": "Christian J Wright",
-    "address": "17 Lassell St",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "kitchen_renovation",
-    "permit_date": "2026-02-05",
-    "application_date": null,
-    "estimated_value": 128000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "KITCHEN AND BATH REMODEL-NON STRUCTURAL",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit",
-      "owner_name": "Collier Family Irrevocable Tst",
-      "contractor_name": "Christian J Wright",
-      "amount_paid": "$1,536.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067334+00:00",
-    "updated_at": "2026-05-03T20:12:57.067335+00:00"
-  },
-  {
-    "id": "9e8aa743-9552-4a75-922a-eb4f6ba865cc",
-    "permit_number": "BP-23-168",
-    "applicant_name": "Thomas J Oneil",
-    "address": "15 Hickory Hill Rd",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "renovation",
-    "permit_date": "2026-02-04",
-    "application_date": null,
-    "estimated_value": null,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "RE-ISSUE PERMIT FEE",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit (DOORS, INSULATION, ROOFING, SIDING and WINDOWS ONLY)",
-      "owner_name": "David Feeley - Feeley, Karen L",
-      "contractor_name": "Thomas J Oneil",
-      "amount_paid": "$30.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067204+00:00",
-    "updated_at": "2026-05-03T20:12:57.067214+00:00"
-  },
-  {
-    "id": "0a848100-7a99-4dfc-b62c-2193368c6a56",
-    "permit_number": "BP-24-765",
-    "applicant_name": "Thomas J Oneil",
-    "address": "15 Hickory Hill Rd",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "building_permit",
-    "permit_date": "2026-02-04",
-    "application_date": null,
-    "estimated_value": null,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "RE- ISSUE PERMIT FEE",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit",
-      "owner_name": "David Feeley - Feeley, Karen L",
-      "contractor_name": "Thomas J Oneil",
-      "amount_paid": "$30.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067237+00:00",
-    "updated_at": "2026-05-03T20:12:57.067239+00:00"
-  },
-  {
-    "id": "84f8b7f4-ce99-4f6f-99ca-f98e6c4ffee8",
-    "permit_number": "BP-26-32",
-    "applicant_name": "National Sign Corp",
-    "address": "400 Quannapowitt Pkwy, Bld 3",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "building_permit",
-    "permit_date": "2026-02-04",
-    "application_date": null,
-    "estimated_value": 7000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "2 BANNERS \"NOW LEASING\" & \"THE BASIN\"",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit",
-      "owner_name": "Ccf Quannapowitt Property Co",
-      "contractor_name": "National Sign Corp",
-      "amount_paid": "$84.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067297+00:00",
-    "updated_at": "2026-05-03T20:12:57.067298+00:00"
-  },
-  {
-    "id": "502704a7-91f1-48e1-9d80-4481521da604",
-    "permit_number": "BP-26-33",
-    "applicant_name": "Markarian Sign",
-    "address": "21 Princess St",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "building_permit",
-    "permit_date": "2026-02-04",
-    "application_date": null,
-    "estimated_value": 3000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "1 WALL SIGN, 1 PROJECTING SIGN",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit",
-      "owner_name": "21 Princess St Llc",
-      "contractor_name": "Markarian Sign",
-      "amount_paid": "$50.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067316+00:00",
-    "updated_at": "2026-05-03T20:12:57.067317+00:00"
-  },
-  {
-    "id": "aaf956ee-76d3-4a4b-a73a-c58aba622d77",
-    "permit_number": "BP-26-31",
-    "applicant_name": "Shaun P Armour",
-    "address": "101 Edgewater Dr",
-    "city": "Wakefield",
-    "state": "MA",
-    "phone": null,
-    "email": null,
-    "work_type": "building_permit",
-    "permit_date": "2026-02-03",
-    "application_date": null,
-    "estimated_value": 147000.0,
-    "status_source": "Permit Issued",
-    "source_url": "https://www.wakefieldma.gov/375/Monthly-Building-Reports",
-    "description": "TENANT FIT-UP ARBELLA",
-    "raw_data": {
-      "source": "wakefield-civicplus-pdf",
-      "record_type": "Building Permit",
-      "owner_name": "101 Edgewater Llc - %Hobbs Brook Mgmt Llc-Ap",
-      "contractor_name": "Shaun P Armour",
-      "amount_paid": "$1,764.00",
-      "month_file": "wak-2535-February-2026.pdf"
-    },
-    "created_at": "2026-05-03T20:12:57.067277+00:00",
-    "updated_at": "2026-05-03T20:12:57.067278+00:00"
+    "created_at": "2026-05-14T04:24:56.444890+00:00",
+    "updated_at": "2026-05-14T04:24:56.444891+00:00"
   }
 ]
