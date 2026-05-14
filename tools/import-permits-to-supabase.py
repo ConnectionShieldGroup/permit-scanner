@@ -39,6 +39,7 @@ CITY_FILES = [
     "cohasset-real.json",
     "rockland-real.json",
     "avon-real.json",
+    "stoughton-real.json",
 ]
 
 

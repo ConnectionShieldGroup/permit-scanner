@@ -153,5 +153,5 @@ export const CITIES = [
 // V2: pipeline LLM + login Reginaldo cobre demais 22 cidades (OpenGov, Tyler, etc)
 export const ACTIVE_CITIES: readonly string[] = [
   'Somerville', 'Hingham', 'Braintree', 'North Reading', 'Randolph', 'Hanson',
-  'Reading', 'Lexington', 'Wakefield', 'Cohasset', 'Rockland', 'Avon',
+  'Reading', 'Lexington', 'Wakefield', 'Cohasset', 'Rockland', 'Avon', 'Stoughton',
 ];

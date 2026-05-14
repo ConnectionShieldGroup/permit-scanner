@@ -152,7 +152,7 @@ def map_work_type(type_raw, description):
         return "renovation"
     if any(k in text for k in ["foundation permit", "foundation"]):
         return "foundation_permit"
-    if any(k in text for k in ["building permit", "resi.", "comm."]):
+    if any(k in text for k in ["building permit", "resi.", "comm.", "build"]):
         return "building_permit"
     return None
 
