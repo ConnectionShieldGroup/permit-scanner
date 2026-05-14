@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { Activity, Database, KanbanSquare, MapPin, ScanLine, XCircle } from 'lucide-react';
+import { Activity, Database, KanbanSquare, ScanLine, XCircle } from 'lucide-react';
 import { cn } from '../lib/cn';
 import { SUPABASE_CONFIGURED } from '../lib/supabase';
 
@@ -27,10 +27,6 @@ export function Layout() {
               <span className="text-base font-bold tracking-tight text-gold-gradient">
                 SCANNER
               </span>
-            </div>
-            <div className="hidden md:flex items-center gap-1 ml-3 rounded-full border border-border bg-bg-card px-2.5 py-0.5 text-xs">
-              <MapPin className="h-3 w-3 text-gold-400" />
-              <span className="mono text-text-secondary">Hingham, MA</span>
             </div>
           </div>
 
@@ -83,7 +79,7 @@ export function Layout() {
       <footer className="border-t border-border/60 mt-12">
         <div className="mx-auto max-w-7xl px-6 py-5 flex items-center justify-between text-xs text-text-muted">
           <span className="mono">Powered by Connection Glass + Shield Pro</span>
-          <span className="mono opacity-60">v0.1.0 — Hingham pilot</span>
+          <span className="mono opacity-60">v0.1.0</span>
         </div>
       </footer>
     </div>
